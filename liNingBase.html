@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>台安力宁苗圃</title>
+    <meta charset="utf-8"/>
+    <meta name="Keywords" content="台安力宁苗圃"/>
+    <meta name="Description" content="台安力宁苗圃"/>
+    <script src="{{STATIC_URL}}js/jquery-2.0.3.min.js"></script>
+    <script src="{{STATIC_URL}}js/bootstrap.js"></script>
+    <script src="{{STATIC_URL}}js/yaFang.js"></script>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap.css"/>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/liNing.css"/>
+    {% block js %}{% endblock %}
+    {% block css %}{% endblock %}
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <div class="navbar">
+          <div class="navbar-inner">
+            <nav class="container">
+              <a href="#" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </a>
+              <a class="brand" href="#">台安力宁苗圃</a>
+              <div class="nav-collapse">
+                <ul class="nav" id="ulA">
+                  <li><a href="/liNingIndex/">首页</a></li>
+                  <li><a href="/liNingIntro/">花圃简介</a></li>
+                  <li class="dropdown">
+                    <a class="dropdown-toggle" data-toggle="dropdown" href="#">花卉展示
+                      <span class="caret"></span>
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a href="/liNingPro/">aa</a></li>
+                      <li><a>bb</a></li>
+                      <li><a>cc</a></li>
+                    </ul>
+                  </li>
+                  <li><a href="/liNingSale/">营销网络</a></li>
+                  <li><a href="/liNingMessage/">客户留言</a></li>
+                  <li><a href="/liNingUs/">联系我们</a></li>
+                  <li><a href="/mode/">返回</a></li> 
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header> 
+
+    <section class="containerA">
+      
+      {% block content %}{% endblock %}
+      <div id="clear"></div>
+    </section>
+
+    <script>
+      $(function(){
+        var w=$(window).width();
+        var s=w/1366;          
+        $('#foot').css('width',w);
+        $('span').css('font-size',16*s);
+        $('#span1').css('margin-left',5*s);
+        $('#span2').css('margin-left',60*s);           
+      })         
+    </script>
+
+    <footer>
+      <div id="foot"> 
+        <span id="span1">
+          <a href="/feiLocation/"></a>
+        </span>
+        <span id="span2"></span>
+      </div>
+    </footer>
+
+  </body>
+</html>
+

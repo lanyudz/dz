@@ -1,0 +1,34 @@
+---
+layout: mengBase
+---
+            <script>
+              $(function(){
+                var w=$(window).width();
+                $('header').css('width',w+13);
+                $('footer').css('width',w+13);
+              })
+            </script>
+            <div id="div1">
+              <img src="{{ site.url }}/image/meng/a.jpg"/>
+            </div>
+            <div id="div2">
+              <img src="{{ site.url }}/image/meng/b.jpg"/>
+            </div>
+            <div id="div3">
+              <img src="{{ site.url }}/image/meng/c.jpg"/>
+            </div>
+
+   <script>
+      $(function(){
+           var w=$(window).width(),h=$(window).height()-119;
+           $('#div1,#div2,#div3').css('width',w);
+           $('#div1,#div2,#div3').css('height',h);
+           $('img').css('width',w);
+           $('img').css('height',h);
+           })
+   </script>
+
+
+
+
+

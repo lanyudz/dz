@@ -1,0 +1,6 @@
+section {
+  width: 1310px;
+  margin-top: 20px;
+}
+
+footer { margin-top: 10px; }

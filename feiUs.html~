@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>菲林格尔地板</title>
+    <meta charset="utf-8"/>
+    <meta name="Keywords" content="台安菲林格尔地板"/>
+    <meta name="Description" content="台安菲林格尔地板是菲林格尔在台安地区唯一授权专卖店，电话：18642287999，地址：邮政局东50米。"/>
+    <script src="/dz/js/jquery-2.0.3.min.js"></script>
+    <script src="/dz/js/fei.js"></script>
+    <link rel="stylesheet" href="/dz/css/fei.css"/>
+  </head>
+  <body>
+    <header>
+      <div id="menu">
+        <div id="name">菲林格尔地板</div>
+        <nav>
+          <ul>
+            <li><a href="/dz/feiPro">装修实景</a></li>
+            <li><a href="/dz/feiVi">视频</a></li>
+            <li><a href="/dz/feiNews">活动新闻</a></li>
+            <li><a href="/dz/feiUs">关于我们</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header> 
+
+    <section>
+         <div id="divUs">
+     <br/>
+     <h3>菲林格尔介绍</h3><br/>
+
+菲林格尔是世界顶级木业制造商，1921年诞生于德国巴登符腾堡州。91年来菲林格尔已成为欧洲最大的旅行车内家具制造商之一。80年代就已经成为梅塞德斯奔驰等著名汽车公司车内木制品的供货商和著名家具中间产品供货商。<br />
+             同时，菲林格尔木业（上海）有限公司是亚洲业内首家通过德国莱茵TüV之ISO9001质量管理体系和ISO14001环境管理体系认证的德资企业，并获有中国环境标志产品认证，以及国家质检总局颁发的中国质量免检产品证书。产品获得国内多项专利，出口东南亚地区，畅销香港、澳门及全国各省、直辖市、自治区，深得广大消费者的好评，被中国轻工业产品质量保障中心授予“质量信得过产品”称号，并被中国建筑材料流通协会评为中国优质环保建材和“建筑装修一体化指定产品”。<br />
+             菲林格尔以“真诚携手，创新拼搏，精益求精，不断超越”为企业灵魂，为消费者打造环保、舒适、安全的家居环境和生活方式，赢得了广大消费者的青睐。<br />
+              1996年，菲林格尔进入中国市场。如今，上海菲林格尔木业股份有限公司已发展为亚洲首屈一指的家具制造商，菲林格尔更是成为备受消费者推崇的家居品牌。
+
+   </div>
+
+   <script>
+     $(function(){
+       $('#divUs').css('height',($(window).height()-119));
+     })
+   </script>
+
+      <div id="clear"></div>
+    </section>
+
+    <script>
+      $(function(){
+        var w=$(window).width();
+        var s=w/1366;
+        $('#menu').css('width',w);
+        $('#foot').css('width',w);
+        $('nav').css('margin-left',250*s);
+        $('nav').css('font-size',16*s);
+        $('#name').css('margin-left',64*s);
+        $('#name').css('font-size',30*s);
+        $('span').css('font-size',16*s);
+        $('#span1').css('margin-left',5*s);
+        $('#span2').css('margin-left',60*s);           
+        $('ul').css('width',400*s);
+        $('ul li').css('margin-left',20*s);
+        $('#fan').css('margin-left',40*s);               
+      })         
+    </script>
+
+    <footer>
+      <div id="foot"> 
+        <span id="span1">Copyright © 2014-2015 菲林格尔地板</span>
+        <span id="span2">地址：邮政局东50米&nbsp;&nbsp;&nbsp;&nbsp;电话：18642287999</span>
+        <span>
+          <a href="/dz/mode">返回</a>
+        </span>
+      </div>
+    </footer>
+
+  </body>
+</html>
+
+
+

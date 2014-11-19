@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="Keywords" content="台安大众网"/>
+    <meta name="Description" content="台安大众网"/>
+    <title>台安大众网</title>
+    <link rel="stylesheet" href="/dz/css/base.css"/>
+    <link rel="stylesheet" href="/dz/css/jquery-ui-1.10.4.min.css"/>
+    <link rel="stylesheet" type="text/css" href="/dz/css/contact.css"/>
+    <script src="/dz/js/jquery-2.0.3.min.js"></script>
+    <script src="/dz/js/jquery-ui-1.10.4.min.js"></script>
+    <script src="/dz/js/base.js"></script>
+  </head>
+  <body>
+    <header>
+      <div id="menu">
+        <span class="nameA">台安大众网</span>
+        <nav>          
+          <ul class="ulA">
+            <a href="/dz/"><li class="shou">首页</li></a>
+            <a href="/dz/mode"><li class="te">行业导航</li></a>
+            <a href="/dz/sale"><li class="te">绿色食材</li></a>
+　　　　　 　     <a href="/dz/multi"><li class="duo">视频</li></a>
+            <a href="/dz/te"><li class="te">微信平台</li></a>
+　　　　　       <a href="http://162.243.106.60:6789/life/"><li class="te">生活信息</li></a>
+            <a href="http://162.243.106.60:6789/faci/"><li class="te">便民信息</li></a>                                      
+            <a href="/dz/location"><li class="te">地理定位</li></a>
+          </ul> 
+        </nav>
+      </div>
+    </header>
+
+    <section>
+   <div id="intro">
+        <h4>网站介绍</h4><br/>
+        <p>台安大众网致力于将最先进、最前沿的技术应用于网站建设中，秉持精于质，智于简的理念，化繁为简，为大众生活提供最优质、最便捷的信息服务和网络体验。</p>
+        <p>台安大众网以诚信为基石，以服务大众生活为宗旨。发布虚假信息的请绕行。</p>
+   </div>
+
+   <script>
+          $('section').css('width',$(window).width());
+   </script>
+
+      <div class="clearA"></div>
+    </section>
+
+    <script>
+      $(function(){
+        var s=[$(window).width()]/1353;
+        $('body').css('font',16*s);
+        $('#menu').css('width',1353*s);
+        $('#menu').css('font-size',17*s);
+        $('.nameA').css('margin-left',60*s);
+        $('.nameA').css('font-size',26*s);
+        $('nav').css('margin-left',95*s);
+        $('nav').css('width',1000*s);
+        $('.shou').css('width',75*s);
+        $('.duo').css('width',90*s);
+        $('.te').css('width',103*s);
+        $('footer').css('height',40*s);
+        $('#foot').css('width',1353*s);
+        $('#foot').css('font-size',15*s);
+        $('#foot').css('height',40*s);                       
+        $('#foot div').css('margin-top',10*s);
+        $('#bei').css('margin-left',200*s);
+        $('.aa').css('margin-left',150*s);
+        $('.aa').css('width',86*s);
+        $('.aa').css('height',17*s);                        
+        $('.bb').css('width',86*s);
+        $('.bb').css('height',17*s);                      
+      })                        
+    </script>
+
+　　  <footer>
+      <div id="foot">
+        <div class="aa"><a href="/dz/intro">网站介绍</a></div>
+        <div class="bb"><a href="/dz/extend">推广服务</a></div> 
+        <div class="bb"><a href="/dz/message">友情留言</a></div>
+        <div class="bb"><a href="/dz/declare">免责声明</a></div>
+        <div id="bb" class="bb"><a href="/contact">联系我们</a></div>
+        <div id="bei">Copyright © 2014 台安大众网&nbsp;&nbsp;&nbsp;&nbsp;辽ICP备10204930号-6</div>
+        <div id="tong">
+          <script>var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1000251679'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s22.cnzz.com/z_stat.php%3Fid%3D1000251679%26show%3Dpic' type='text/javascript'%3E%3C/script%3E"));
+          </script>
+        </div>                           
+      </div>
+    </footer>   
+  </body>
+</html>
+
+

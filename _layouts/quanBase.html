@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>泉天下热水器</title>
+          <meta charset="utf-8"/>
+          <meta name="Keywords" content="台安泉天下热水器"/>
+          <meta name="Description" content="台安泉天下热水器"/>
+          <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+          <script src="{{ site.url }}/js/quan.js"></script>
+          <link rel="stylesheet" href="{{ site.url }}/css/quan.css"/>
+     </head>
+     <body>
+          <header>/
+                 <div id="menu">
+                      <div id="name">泉天下热水器</div>
+                      <nav>
+                          <ul>
+                             <a href="{{ site.url }}/quanPro"><li>产品展示</li></a>
+                             <a href="{{ site.url }}/quanVi"><li>视频</li></a>
+                             <a href="{{ site.url }}/quanNews"><li>活动新闻</li></a>
+                             <a href="{{ site.url }}/quanUs"><li>关于我们</li></a>   
+                          </ul>
+                      </nav>
+                 </div>
+         </header>
+
+         <section>
+                 <script>
+                        $(function(){
+                            var w=$(window).width();
+                            var s=w/1353;
+                            $('#menu').css('width',w);
+                            $('#foot').css('width',w);
+                            $('span').css('font-size',14*s);
+                            $('#span1').css('margin-left',5*s);
+                            $('#span2').css('margin-left',60*s);
+                            $('nav').css('margin-left',260*s);
+                            $('nav').css('width',364*s);
+                            $('nav').css('font-size',14*s);
+                            $('ul li').css('margin-left',20*s);
+                            $('#name').css('margin-left',64*s);
+                            $('#name').css('font-size',30*s);
+                         })
+                  </script>
+           {{ content }}
+           <div id="clear"></div>
+         </section>
+
+         <footer>
+           <div id="foot">
+             <span id="span1">地址：邮政局东50米</span>
+             <span id="span2">电话：18642287999</span>
+           </div>
+         </footer>
+     </body>
+</html>
+
+
+
+

@@ -1,0 +1,39 @@
+{% extends "moBase.html" %}  
+
+{% block css %}
+   <style>
+         footer{margin-top:16px;}
+   </style>
+{% endblock %}
+
+{% block content %}
+   <div id="tai">
+   </div>
+   <div id="big">
+        <div id="close">&nbsp;关闭</div>
+   </div>
+
+<script>
+    $(
+      function(){
+        var arr=new Array('台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城','台安大厦摩托城');
+
+        for(var i=1;i<10;i++)
+        {
+          var oDiv=$("<div id='big"+i+"' class='im' style='float:left;width:330px;height:250px;padding:5px;margin-left:16px;margin-top:16px;background:#ffffff;'></div>");
+          var oImg=$("<img src='{{MEDIA_URL}}image/moJia/s"+i+".jpg'/>");
+          oDiv.append(oImg);
+          oDiv.append(arr[i-1]);
+          $('#tai').append(oDiv);
+        }
+          var cDiv=$("<div style='clear:both;'></div>");          
+          $('#tai').append(cDiv);
+          $('.im').click(function(){var g=$(this).attr('id');var oImg=$("<img src='{{MEDIA_URL}}image/moJia/"+g+".jpg'/>");$('#big img').remove();$('#big').append(oImg);$('#big').fadeIn(500);$('.im').fadeTo(400,0.2);});
+          $('#close').click(function(){$('#big').hide();$('.im').fadeTo(400,1.0);});
+       }
+     
+     )    
+
+</script>
+
+{% endblock %}

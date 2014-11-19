@@ -1,0 +1,13 @@
+---
+layout: keBase
+---
+   <div id="divUs">
+     <br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;春节期间正常营业。
+   </div>
+
+   <script>
+     $(function(){
+       $('#divUs').css('height',($(window).height()-119));
+     })
+   </script>
+

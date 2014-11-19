@@ -1,0 +1,58 @@
+---
+layout: laoBase
+---
+   <div id="jia">
+        <div id="jia1">
+             <div id="1" style="background:red;">
+               <img src="{{ site.url }}/image/lao/s1.jpg"/>
+             </div>
+             <div id="2">
+               <img src="{{ site.url }}/image/lao/s2.jpg"/>
+             </div>
+             <div id="3">
+               <img src="{{ site.url }}/image/lao/s3.jpg"/>
+             </div>
+             <div id="4">
+               <img src="{{ site.url }}/image/lao/s4.jpg"/>
+             </div>
+             <div id="5">
+               <img src="{{ site.url }}/image/lao/s5.jpg"/>
+             </div>
+             <div id="6">
+               <img src="{{ site.url }}/image/lao/s6.jpg"/>
+             </div>
+             <div id="7">
+               <img src="{{ site.url }}/image/lao/s7.jpg"/>
+             </div>
+             <div id="8">
+               <img src="{{ site.url }}/image/lao/s8.jpg"/>
+             </div>
+             <div id="9">
+               <img src="{{ site.url }}/image/lao/s9.jpg"/>
+             </div>
+             <div id="10">
+               <img src="{{ site.url }}/image/lao/s10.jpg"/>
+             </div>
+             <div id="11">
+               <img src="{{ site.url }}/image/lao/s11.jpg"/>
+             </div>
+         </div>
+   </div>
+
+   <div id="pro">
+     <img src="{{ site.url }}/image/lao/pro1.jpg" />
+   </div>
+
+   <script> 
+      $(function(){
+         $('#jia1 div').click(function(){  
+            $('#jia1 div').css('background','');
+            $(this).css('background','red');
+            var g=$(this).attr('id');
+            var oImg=$("<img src='{{ site.url }}/image/lao/pro"+g+".jpg'/>");
+            $('#pro').empty();
+            $('#pro').append(oImg);
+         });
+      })
+
+   </script>

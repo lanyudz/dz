@@ -1,0 +1,65 @@
+---
+layout: aijiaBase
+---
+         <script>
+            $(function(){
+               var w=$(window).width();
+               var s=w/1366;                              
+               $('#menu').css('width',w);
+               $('#foot').css('width',w);
+               $('nav').css('margin-left',200*s);
+               $('#name').css('margin-left',54*s);
+               $('#name').css('font-size',30*s);
+            })
+         </script>
+         <div id="tai"></div>
+         <div id="big">
+           <div id="close">&nbsp;关闭</div>
+         </div>
+
+   <script>
+     $(function(){
+       var arr=['爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城','爱家家俱城'];
+
+       for(var i=1;i<10;i++){
+         var oDiv=$("<div id='big"+i+"' class='im' style='float:left;background:#ffffff;'></div>");
+         var oImg=$("<img class='imgS' src='{{ site.url }}/image/aijiaBangong/big"+i+".jpg'/>");
+         oDiv.append(oImg);
+         oDiv.append(arr[i-1]);
+         $('#tai').append(oDiv);
+       }
+       var cDiv=$("<div style='clear:both;'></div>");          
+       $('#tai').append(cDiv);
+       var s=[$(window).width()]/1366;
+       $('#tai').css('width',1050*s);
+       $('.im').css('width',320*s);
+       $('.im').css('height',215*s);
+       $('.im').css('padding',4*s);
+       $('.im').css('margin-left',16*s);
+       $('.im').css('margin-top',16*s);
+       $('.imgS').css('width',320*s);
+       $('.imgS').css('height',180*s);
+
+       $('.im').click(function(){
+         var g=$(this).attr('id');
+         var oImg=$("<img class='imgBig' src='{{ site.url }}/image/aijiaBangong/"+g+".jpg'/>");
+         $('#big img').remove();
+         $('#big').append(oImg);
+         $('#big').css('width',900*s);     
+         $('#big').css('width',1000*s);
+         $('#big').css('height',562*s);
+         $('#big').css('margin-left',-513*s);
+         $('#big').css('margin-top',-288*s);
+         $('.imgBig').css('width',1000*s);
+         $('.imgBig').css('height',562*s);
+         $('#big').fadeIn(500);
+         $('.im').fadeTo(400,0.2);
+       });
+
+       $('#close').click(function(){
+         $('#big').hide();
+         $('.im').fadeTo(400,1.0);
+       });
+     }) 
+   </script>
+

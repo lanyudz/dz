@@ -1,0 +1,48 @@
+*{margin:0px;padding:0px;}
+
+body{background:#ECEDEE;text-align:center;}
+
+#tai,#lao{width:1055px;margin-left:auto;margin-right:auto;}
+
+header{background:#2B1B16;height:37px;padding-top:38px;}
+
+#name{float:left;margin-left:64px;margin-top:-22px;height:50px;color:#ffffff;font-size:34px;text-align:center;}
+
+span{font-size:16px;margin-left:15px;}
+
+nav{margin-left:auto;margin-right:auto;color:#ffffff;font-size:14px;width:380px;height:30px;}
+
+ul a{color:#ffffff;}
+
+#clear{border:0px;clear:both;}
+
+ul{float:left;list-style-type:none;}
+
+ul li{float:left;margin-left:20px;}
+
+#fan{margin-left:40px;}
+
+#div1,#div2,#div3{width:1364px;height:800px;margin-left:auto;margin-right:auto;}
+
+#divUs{width:800px;height:1120px;margin-top:60px;margin-left:auto;margin-right:auto;text-align:left;font-size:18px;color:black;line-Height:35px;}
+
+#divUs p{text-indent:2em;}
+
+video{margin-top:25px;margin-bottom:30px;}
+
+#jia{height:81px;background:#54534C;}
+
+#jia1{width:1221px;height:81px;margin-left:auto;margin-right:auto;}
+
+#jia1 div{float:left;margin-left:10px;margin-top:10px;}
+
+#span2{margin-left:40px;}
+
+footer{background:#2B1B16;height:32px;color:#ffffff;padding-top:12px;}
+
+
+
+
+
+
+

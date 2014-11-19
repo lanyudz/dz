@@ -1,0 +1,9 @@
+---
+layout: sxBase
+---
+   <div id="divUs">文选有机蔬菜</div>
+   <script>
+     $(function(){
+       $('#divUs').css('height',($(window).height()-119));
+     })
+   </script>

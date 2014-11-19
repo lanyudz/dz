@@ -1,0 +1,59 @@
+---
+layout: mengBase
+---
+                  <script>
+                         $(function(){
+                              var w=$(window).width();
+                              $('header').css('width',w+13);
+                              $('footer').css('width',w+13);
+                         })
+                  </script>
+                     <div id="tai"></div>
+   <div id="big">
+        <div id="close">&nbsp;关闭</div>
+   </div>
+
+   <script>
+      $(function(){
+          var arr=['孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门','孟氏木门'];
+
+          for(var i=1;i<13;i++){
+              var oDiv=$("<div id='big"+i+"' class='im' style='float:left;width:200px;height:383px;padding:5px;margin-left:16px;margin-top:16px;background:#ffffff;'></div>");
+              var oImg=$("<img class='imgS' src='{{ site.url }}/image/meng/big"+i+".jpg'/>");
+              oDiv.append(oImg);
+              oDiv.append(arr[i-1]);
+              $('#tai').append(oDiv);
+          }
+
+          var cDiv=$("<div style='clear:both;'></div>");          
+          $('#tai').append(cDiv);
+          var w=$(window).width();
+          $('#menu').css('width',w);
+          $('#foot').css('width',w);
+          var s=[$(window).width()]/1353;
+          $('#tai').css('width',920*s);
+          $('.im').css('width',200*s);
+          $('.im').css('height',383*s);
+          $('.im').css('padding',4*s);
+          $('.im').css('margin-left',16*s);
+          $('.im').css('margin-top',16*s);
+          $('.imgS').css('width',200*s);
+          $('.imgS').css('height',356*s);
+
+          $('.im').click(function(){
+              var g=$(this).attr('id');
+              var oImg=$("<img src='{{ site.url }}/image/meng/"+g+".jpg'/>");
+              $('#big img').remove();
+              $('#big').append(oImg);
+              $('#big').fadeIn(500);
+              $('.im').fadeTo(400,0.2);
+          });
+
+          $('#close').click(function(){
+              $('#big').hide();
+              $('.im').fadeTo(400,1.0);
+          });
+    })    
+
+   </script>
+

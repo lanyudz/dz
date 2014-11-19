@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>孟氏木门</title>
+          <meta charset="utf-8"/>
+          <meta name="Keywords" content="台安孟氏木门"/>
+          <meta name="Description" content="台安孟氏木门"/>
+          <script src="{{STATIC_URL}}js/jquery-2.0.3.min.js"></script>
+          <script src="{{STATIC_URL}}js/meng.js"></script>
+          <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/meng.css"/>
+          {% block js %}{% endblock %}
+          {% block css %}{% endblock %}
+     </head>
+     <body>
+          <header>
+                 <div id="menu">
+                      <div id="name">孟氏木门</div>
+                      <nav>
+                          <ul>
+                             <a href="/mengPro/"><li>产品展示</li></a>
+                             <a href="/mengVi/"><li>视频</li></a>
+                             <a href="/mengNews/"><li>活动新闻</li></a>
+                             <a href="/mengUs/"><li>关于我们</li></a>
+                             <a href="/mode/"><li id="fan">返回</li></a>   
+                          </ul>
+                      </nav>
+                 </div>
+          </header>
+
+          <section>
+                  <script>
+                         $(function(){
+                              var w=$(window).width();
+                              $('header').css('width',w+13);
+                              $('footer').css('width',w+13);
+                         })
+                  </script>
+                  {% block content %}{% endblock %}
+                  <div id="clear"></div>
+          </section>
+
+          <footer>
+                 <div id="foot">
+                      <span id="span1">地址：邮政局对面</span>
+                      <span id="span2">电话：18642287999</span>
+                 </div>
+          </footer>
+
+     </body>
+</html>
+

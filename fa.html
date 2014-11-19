@@ -1,0 +1,19 @@
+{% extends "faBase.html" %}
+
+{% block content %}
+   <div id="div1"><img src="{{MEDIA_URL}}image/fa/a.jpg"/></div>
+   <div id="div2"><img src="{{MEDIA_URL}}image/fa/b.jpg"/></div>
+   <div id="div3"><img src="{{MEDIA_URL}}image/fa/c.jpg"/></div>
+
+   <script>
+          $(function(){
+           var w=$(window).width(),h=$(window).height()-119;
+           $('#div1,#div2,#div3').css('width',w);
+           $('#div1,#div2,#div3').css('height',h);
+           $('img').css('width',w);
+           $('img').css('height',h);
+           })
+   </script>
+
+{% endblock %}
+

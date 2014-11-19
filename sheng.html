@@ -1,0 +1,32 @@
+---
+layout: shengBase
+---
+      <script>
+        $(function(){
+          var w=$(window).width();
+          var s=w/1366;                             
+          $('#menu').css('width',w);
+          $('#name').css('margin-left',64*s);
+          $('#name').css('font-size',30*s);
+          $('nav').css('margin-left',200*s);
+          $('nav').css('font-size',14*s);
+          $('ul li').css('margin-left',20*s);
+          $('#foot').css('width',w);
+          $('nav').css('margin-left',200*s); 
+        })
+      </script>
+         <div id="div1"><img src="{{ site.url }}/image/sheng/a.jpg"/></div>
+         <div id="div2"><img src="{{ site.url }}/image/sheng/b.jpg"/></div>
+         <div id="div3"><img src="{{ site.url }}/image/sheng/c.jpg"/></div>
+
+   <script>
+     $(function(){
+       var w=$(window).width(),
+               h=$(window).height()-119;
+       $('#div1,#div2,#div3').css('width',w);
+       $('#div1,#div2,#div3').css('height',h);
+       $('img').css('width',w);
+       $('img').css('height',h);
+     })
+   </script>
+

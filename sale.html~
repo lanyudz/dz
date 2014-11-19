@@ -1,0 +1,421 @@
+---
+layout: base
+---
+   <div id="butt">
+     <div class="1">特产</div>
+     <div class="2">蔬菜</div>
+     <div class="3">鱼类</div>
+     <div class="4">干果</div>
+     <div class="5">海产品</div>
+   </div>
+
+   <div class="live" id="live1">
+     <div>
+       <a href="{{ site.url }}/xiePro">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j1.jpg"/>         
+       </a>
+       <p>诚信大河蟹</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j2.jpg"/>         
+       </a>
+       <p>特产</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j3.jpg"/>         
+       </a>
+       <p>特产</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j4.jpg"/>         
+       </a>
+       <p>特产</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j5.jpg"/>         
+       </a>
+       <p>特产</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j6.jpg"/>         
+       </a>
+       <p>特产</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j7.jpg"/>         
+       </a>
+       <p>特产</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j8.jpg"/>         
+       </a>
+       <p>特产</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j9.jpg"/>         
+       </a>
+       <p>特产</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j10.jpg"/>         
+       </a>
+       <p>特产</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j11.jpg"/>         
+       </a>
+       <p>特产</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/j12.jpg"/>         
+       </a>
+       <p>特产</p>
+     </div>
+   </div>
+
+   <div class="live" id="live2">
+     <div>
+       <a href="{{ site.url }}/sxPro">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h1.jpg"/>         
+       </a>
+       <p>海城三星绿色生态蔬菜</p>
+     </div>
+     <div>
+       <a href="{{ site.url }}/wxPro">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h2.jpg"/>         
+       </a>
+       <p>文选有机蔬菜</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h3.jpg"/>         
+       </a>
+       <p>蔬菜</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h4.jpg"/>         
+       </a>
+       <p>蔬菜</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h5.jpg"/>         
+       </a>
+       <p>蔬菜</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h6.jpg"/>         
+       </a>
+       <p>蔬菜</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h7.jpg"/>         
+       </a>
+       <p>蔬菜</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h8.jpg"/>         
+       </a>
+       <p>蔬菜</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h9.jpg"/>         
+       </a>
+       <p>蔬菜</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h10.jpg"/>         
+       </a>
+       <p>蔬菜</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h11.jpg"/>         
+       </a>
+       <p>蔬菜</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/h12.jpg"/>         
+       </a>
+       <p>蔬菜</p>
+     </div>
+   </div>
+
+    <div class="live" id="live3">
+     <div>
+       <a href="/daHuoFang/">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f1.jpg"/>         
+       </a>
+       <p>大伙房有机河鱼</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f2.jpg"/>         
+       </a>
+       <p>鱼类</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f3.jpg"/>         
+       </a>
+       <p>鱼类</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f4.jpg"/>         
+       </a>
+       <p>鱼类</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f5.jpg"/>         
+       </a>
+       <p>鱼类</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f6.jpg"/>         
+       </a>
+       <p>鱼类</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f7.jpg"/>         
+       </a>
+       <p>鱼类</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f8.jpg"/>         
+       </a>
+       <p>鱼类</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f9.jpg"/>         
+       </a>
+       <p>鱼类</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f10.jpg"/>         
+       </a>
+       <p>鱼类</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f11.jpg"/>         
+       </a>
+       <p>鱼类</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/f12.jpg"/>         
+       </a>
+       <p>鱼类</p>
+     </div>
+   </div>
+ 
+   <div class="live" id="live4">
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g1.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g2.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g3.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g4.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g5.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g6.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g7.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g8.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g9.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g10.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g11.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/g12.jpg"/>         
+       </a>
+       <p>干果</p>
+     </div>
+   </div>
+ 
+   <div class="live" id="live5">
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i1.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i2.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i3.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i4.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i5.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i6.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i7.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i8.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i9.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i10.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i11.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/sale/i12.jpg"/>         
+       </a>
+       <p>海产品</p>
+     </div>
+   </div>
+
+   <script>
+     $(function(){  
+       $('.1').css('background','#E5E2B1');      
+       $('#butt div').click(function(){        
+         $('#butt div').css('background','#F6F7D9');
+         $(this).css('background','#E5E2B1');
+         $('.live').hide();
+         $('#live'+$(this).attr('class')).show();
+       });
+
+       function size(){
+         var s=[$(window).width()]/1353;
+         $('section').css('width',$(window).width());
+         $('#butt').css('width',110*s);
+         $('#butt').css('margin-top',30*s);
+         $('#butt').css('margin-left',50*s);
+         $('#butt').css('font-size',16*s);
+         $('#butt div').css('width',110*s);
+         $('#butt div').css('height',35*s);
+         $('#butt div').css('line-height',35*s+'px'); 
+         $('#butt div').css('margin-top',10*s);
+         $('.live').css('width',1140*s);
+         $('.live').css('margin-left',10*s);
+         $('.live').css('margin-top',30*s);
+         $('.live div').css('margin-left',20*s);
+         $('.live div').css('margin-top',10*s);
+         $('.live div').css('width',350*s);
+         $('.live div').css('height',240*s);
+         $('.imgMode').css('width',350*s);
+         $('.imgMode').css('height',197*s);
+       }  
+       size();   
+     })
+   </script>
+

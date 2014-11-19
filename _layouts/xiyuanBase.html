@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>台安僖缘庆典</title>
+          <meta charset="utf-8"/>
+          <meta name="Keywords" content="台安僖缘庆典"/>
+          <meta name="Description" content=""/>
+          <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+          <script src="{{ site.url }}/js/fei.js"></script>
+          <link rel="stylesheet" href="{{ site.url }}/css/xiyuan.css"/>
+     </head>
+     <body>
+          <header>
+                 <div id="menu">
+                      <div id="name">僖缘庆典</div>
+                      <nav>
+                          <ul>
+                             <li>
+                               <a href="{{ site.url }}/xiyuanScene">庆典场面</a>
+                             </li>
+                             <li>
+                               <a href="{{ site.url }}/xiyuanVi">视频</a>
+                             </li>
+                             <li>
+                               <a href="{{ site.url }}/xiyuanNews">活动新闻</a>
+                             </li>
+                             <li>
+                               <a href="{{ site.url }}/xiyuanUs">关于我们</a>
+                             </li>
+                             <li id="fan">
+                               <a href="{{ site.url }}/mode">返回</a>
+                             </li>   
+                          </ul>
+                      </nav>
+                 </div>
+          </header>
+
+          <section>
+                  <script>
+                         $(function(){
+                              var scale=[$(window).width()]/1353;
+                              var w=$(window).width();
+                              $('#menu').css('width',w);
+                              $('#foot').css('width',w);
+                              $('nav').css('margin-left',300*scale);
+                              $('#name').css('margin-left',64*scale);
+                              $('#name').css('font-size',30*scale);
+                         })
+                  </script>
+                    {{ content }}
+                  <div id="clear"></div>
+          </section>
+
+          <footer>
+            <div id="foot">
+              <span id="span1">地址：公园正门南50米路西</span>
+              <span id="span2">电话：13478075127</span>
+            </div>
+          </footer>
+
+     </body>
+</html>
+

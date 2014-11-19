@@ -1,0 +1,25 @@
+---
+layout: mengBase
+---
+   <script>
+     $(function(){
+       var w=$(window).width();
+       $('header').css('width',w+13);
+       $('footer').css('width',w+13);
+     })
+   </script>
+   <div id="divUs">
+        <br/><br/>
+     <div class="text">老板厨房电器2014新品品鉴会，4月26日与您相聚台安，新品上市、5折优惠，砸金蛋开大奖。菲林格尔地板、孟氏木门、法狮龙时尚吊顶、本科热水器、泉天下热水器、优丽雅特窗帘携手老板厨房电器钜惠全城。
+     </div>
+   </div>
+
+   <script>
+     $(function(){
+       $('#divUs').css('height',($(window).height()-119));
+     })
+   </script>
+
+ 
+
+

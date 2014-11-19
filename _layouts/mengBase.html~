@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>孟氏木门</title>
+          <meta charset="utf-8"/>
+          <meta name="Keywords" content="台安孟氏木门"/>
+          <meta name="Description" content="台安孟氏木门"/>
+          <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+          <script src="{{ site.url }}/js/meng.js"></script>
+          <link rel="stylesheet" href="{{ site.url }}/css/meng.css"/>
+     </head>
+     <body>
+          <header>
+                 <div id="menu">
+                      <div id="name">孟氏木门</div>
+                      <nav>
+                          <ul>
+                             <a href="{{ site.url }}/mengPro"><li>产品展示</li></a>
+                             <a href="{{ site.url }}/mengVi"><li>视频</li></a>
+                             <a href="{{ site.url }}/mengNews"><li>活动新闻</li></a>
+                             <a href="{{ site.url }}/mengUs"><li>关于我们</li></a>   
+                          </ul>
+                      </nav>
+                 </div>
+          </header>
+
+          <section>
+            {{ content }}
+            <div id="clear"></div>
+          </section>
+
+          <footer>
+                 <div id="foot">
+                      <span id="span1">地址：邮政局对面</span>
+                      <span id="span2">电话：18642287999</span>
+                 </div>
+          </footer>
+
+     </body>
+</html>
+
+
+
+

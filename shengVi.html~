@@ -1,0 +1,36 @@
+---
+layout: shengBase
+---
+      <script>
+        $(function(){
+          var w=$(window).width();
+          var s=w/1366;                             
+          $('#menu').css('width',w);
+          $('#name').css('margin-left',64*s);
+          $('#name').css('font-size',30*s);
+          $('nav').css('margin-left',200*s);
+          $('nav').css('font-size',14*s);
+          $('ul li').css('margin-left',20*s);
+          $('#foot').css('width',w);
+          $('nav').css('margin-left',200*s); 
+        })
+      </script>
+      <video id="viA" controls="controls" autoplay="autoplay">
+        <source src="http://taiandazhong.eicp.net/media/video/sheng.webm" type="video/webm" />
+        <source src="http://taiandazhong.eicp.net/media/video/sheng.mp4" type="video/mp4" />
+        您的浏览器不支持。   
+      </video>
+   <script>
+     $(function(){
+       var w=915*[$(window).width()]/1353,
+               h=w*9/16;
+       $('video').css('width',w);
+       $('video').css('height',h);
+       var top1=([$(window).height()-119]-h)/2;
+       $('video').css('margin-top',top1);
+       $('section').css('height',($(window).height()-119));
+     })
+   </script>
+
+
+

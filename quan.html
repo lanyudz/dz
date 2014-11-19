@@ -1,0 +1,25 @@
+---
+layout: quanBase
+---
+    <div id="div1">
+      <img src="{{ site.url }}/image/quan/a.jpg"/>
+    </div>
+    <div id="div2">
+      <img src="{{ site.url }}/image/quan/b.jpg"/>
+    </div>
+    <div id="div3">
+      <img src="{{ site.url }}/image/quan/c.jpg"/>
+    </div>
+
+   <script>
+      $(function(){
+           var w=$(window).width(),
+                   h=$(window).height()-119;
+           $('#div1,#div2,#div3').css('width',w);
+           $('#div1,#div2,#div3').css('height',h);
+           $('img').css('width',w);
+           $('img').css('height',h);
+           })
+   </script>
+
+

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>台安雅芳宿根地被花卉</title>
+    <meta charset="utf-8"/>
+    <meta name="Keywords" content="台安雅芳宿根地被花卉"/>
+    <meta name="Description" content="台安雅芳宿根地被花卉"/>
+    <script src="{{STATIC_URL}}js/jquery-2.0.3.min.js"></script>
+    <script src="{{STATIC_URL}}js/bootstrap.js"></script>
+    <script src="{{STATIC_URL}}js/yaFang.js"></script>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap.css"/>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/bootstrap-responsive.css"/>
+    <link rel="stylesheet" href="{{STATIC_URL}}css/yaFang.css"/>
+    {% block js %}{% endblock %}
+    {% block css %}{% endblock %}
+  </head>
+  <body>
+    <header>
+      <div id="menu">
+        <div id="nameA">台安雅芳宿根地被花卉</div>
+        <nav>
+          <ul>
+            <a href="/yaFangIndex/"><li>首页</li></a>
+            <a href="/yaFangIntro/"><li>花圃简介</li></a>
+            <a href="/yaFangPro/"><li>花卉展示</li></a>
+            <a href="/yaFangSale/"><li>营销网络</li></a>
+            <a href="/yaFangMessage/"><li>客户留言</li></a>
+            <a href="/yaFangUs/"><li>联系我们</li></a>
+            <a href="/mode/"><li id="fan">返回</li></a>   
+          </ul>
+        </nav>
+      </div>
+    </header> 
+
+    <section>
+      <script>
+        $(function(){
+          var w=$(window).width();
+          var s=w/1366;
+          $('#menu').css('width',w);
+          $('#foot').css('width',w);
+          $('#nameA').css('width',300*s);
+          $('#nameA').css('margin-left',390*s);
+          $('#nameA').css('font-size',26*s);
+          $('nav').css('width',710*s);
+          $('nav').css('margin-left',280*s);
+          $('nav').css('font-size',16*s);
+          $('span').css('font-size',16*s);
+          $('#span1').css('margin-left',5*s);
+          $('#span2').css('margin-left',60*s);           
+          $('ul').css('width',710*s);
+          $('ul li').css('margin-left',40*s);
+          $('#fan').css('margin-left',60*s);               
+        })         
+      </script>
+      {% block content %}{% endblock %}
+      <div id="clear"></div>
+    </section>
+
+    <footer>
+      <div id="foot"> 
+        <span id="span1"><a href="/feiLocation/"></a></span>
+        <span id="span2"></span>
+      </div>
+    </footer>
+
+  </body>
+</html>
+

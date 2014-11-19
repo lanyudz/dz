@@ -1,0 +1,36 @@
+{% extends "liNingBase.html" %}  
+
+{% block css %}
+   <style>footer {margin-top: 16px;}</style>
+{% endblock %}
+
+{% block content %}
+   
+     <div class="row">
+       <div id="tai"></div>
+     </div>
+
+     <script>
+     $(function(){
+       var arr=['力宁苗圃','力宁苗圃','力宁苗圃','力宁苗圃','力宁苗圃','力宁苗圃','力宁苗圃','力宁苗圃','力宁苗圃','力宁苗圃','力宁苗圃','力宁苗圃'];
+
+       for(var i=1;i<13;i++){
+         var oDiv=$("<div class='span3'></div>");
+         var oDivA=$("<div class='imA'></div>");
+         var oImg=$("<img class='imgS' src='{{MEDIA_URL}}image/yaFang/big"+i+".jpg'/>");
+         oDiv.append(oImg);
+         oDivA.append(arr[i-1]);
+         oDiv.append(oDivA);
+         $('#tai').append(oDiv);
+       }
+
+       var cDiv=$("<div style='clear:both;'></div>");       
+       $('#tai').append(cDiv);
+       var w=$(window).width();
+       $('#foot').css('width',w);      
+       
+     })    
+
+   </script>
+
+{% endblock %}

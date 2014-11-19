@@ -1,0 +1,48 @@
+
+section { width: 1353px; }
+
+#butt {
+  float: left;
+  width: 110px;
+  margin-top: 30px;
+  margin-left: 50px;
+  color: #2E1D06;
+}
+
+#butt div {
+  float: left;
+  width: 110px;
+  height: 35px;
+  line-height: 35px;
+  margin-top: 10px;
+  background: #F6F7D9;
+}
+
+.live {
+  float: left;
+  width: 1140px;
+  margin-left: 10px;
+  margin-top: 30px;
+  display: none;
+}
+
+#live1 { display: block; }
+
+.live div {
+  float: left;
+  margin-left: 20px;
+  margin-top: 10px;
+  width: 350px;
+  height: 240px;
+}
+
+.live div img { border: 1px solid #551717; }
+
+.imgMode {
+  width: 350px;
+  height: 197px;
+}
+
+
+
+

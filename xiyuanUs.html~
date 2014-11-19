@@ -1,0 +1,16 @@
+---
+layout: xiyuanBase
+---
+
+   <div id="divUs">
+       <br/><br/>
+     <h3>僖缘庆典介绍</h3>
+   </div>
+
+   <script>
+     $(function(){
+       $('#divUs').css('height',($(window).height()-119));
+     })
+   </script>
+
+

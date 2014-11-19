@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>圣士烘焙</title>
+    <meta charset="utf-8"/>
+    <meta name="Keywords" content="台安圣士烘焙"/>
+    <meta name="Description" content="台安圣士烘焙"/>
+    <script src="/dz/js/jquery-2.0.3.min.js"></script>
+    <script src="/dz/js/sheng.js"></script>
+    <link rel="stylesheet" type="text/css" href="/dz/css/sheng.css"/>
+  </head>
+  <body>
+    <header>
+      <div id="menu">
+        <div id="name">圣士烘焙</div>
+        <nav>
+          <ul>
+            <a href="/dz/shengDan"><li>蛋糕系列</li></a>
+            <a href="/dz/shengMian"><li>面包系列</li></a>
+            <a href="/dz/shengShui"><li>西点系列</li></a>
+            <a href="/dz/shengDian"><li>店内实景</li></a>
+            <a href="/dz/shengVi"><li>视频</li></a>
+            <a href="/dz/shengNews"><li>活动新闻</li></a>
+            <a href="/dz/shengUs"><li>关于我们</li></a>        
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <script>
+        $(function(){
+          var w=$(window).width();
+          var s=w/1366;                             
+          $('#menu').css('width',w);
+          $('#name').css('margin-left',64*s);
+          $('#name').css('font-size',30*s);
+          $('nav').css('margin-left',200*s);
+          $('nav').css('font-size',14*s);
+          $('ul li').css('margin-left',20*s);
+          $('#foot').css('width',w);
+          $('nav').css('margin-left',200*s); 
+        })
+      </script>
+      {% block content %}{% endblock %}
+      <div id="clear"></div>
+    </section>
+
+    <footer>
+      <div id="foot">
+        <span id="span1">Copyright © 2014-2015 圣士烘焙</span>
+        <span id="span2">地址：龙泽园正门对面&nbsp;&nbsp;电话：4812788</span>
+        <span>
+          <a href="/dz/mode/">返回</a>
+        </span>
+      </div>
+    </footer>
+
+  </body>
+</html>
+

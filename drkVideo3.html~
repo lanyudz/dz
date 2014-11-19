@@ -1,0 +1,35 @@
+---
+layout: drkBase
+---
+  <section>
+    <img class="image" src="{{ site.url }}/image/drk/basic1.jpg" />
+  </section>
+  <section class="main">
+    <ul class="bar">
+      <li class="total">新闻中心</li>
+      <li>
+        <a href="{{ site.url }}/drkNews1">企业新闻</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drkNews2">行业资讯</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drkNews3">视频展示</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drkNews4">专题报道</a>
+      </li>
+    </ul>
+
+    <div class="content">
+      <h3>视频展示</h3>
+      <span>您当前位置：首页 > 新闻中心 > 视频展示</span>
+      <hr></hr>
+      <video class="vi" width="700px" height="394px" controls="controls" autoplay="autoplay">
+        <source src="http://taiandazhong.eicp.net/media/video/v1.webm" type="video/webm" />
+        <source src="http://taiandazhong.eicp.net/media/video/v1.mp4" type="video/mp4" />
+          请升级浏览器
+      </video>
+      </div>
+    <div class="clearA"></div>
+  </section>

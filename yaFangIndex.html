@@ -1,0 +1,43 @@
+{% extends "yaFangBase.html" %}
+
+{% block content %}
+   <div class="container">
+   <div id="carousel1" class="carousel slide" data-ride="carousel">
+     <div class="carousel-inner">
+       <div class="item active">
+         <img src="{{MEDIA_URL}}image/yaFang/a.jpg"/>
+         <div class="carousel-caption">
+           <p>kkkkkkk</p>
+         </div>
+       </div>
+
+       <div class="item">
+         <img src="{{MEDIA_URL}}image/yaFang/b.jpg"/>
+         <div class="carousel-caption">
+           <p>abcdefg</p>
+         </div>
+       </div>
+
+       <div class="item">
+         <img src="{{MEDIA_URL}}image/yaFang/c.jpg"/>
+         <div class="carousel-caption">
+           <p>hijklmn</p>
+         <div>
+       </div>
+     </div>
+     <a href="#carousel1" data-slide="prev" class="left carousel-control">l</a>
+     <a href="#carousel1" data-slide="next" class="right carousel-control">r</a>
+     
+   </div>
+   </div>
+
+   <script>
+     $(function(){
+       var w=$(window).width();
+       $('img').css('width',w);
+       $('img').css('height',w*10/32);
+     })
+   </script>
+
+{% endblock %}
+

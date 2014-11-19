@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>爱家家俱城</title>
+      <meta charset="utf-8"/>
+      <meta name="Keywords" content="台安爱家家俱城"/>
+      <meta name="Description" content="台安爱家家俱城"/>
+      <script src="/dz/js/jquery-2.0.3.min.js"></script>
+      <script src="/dz/js/fei.js"></script>
+      <link rel="stylesheet" href="/dz/css/aijia.css"/>
+   </head>
+   <body>
+      <header>
+         <div id="menu">
+            <div id="name">爱家家俱城</div>
+            <nav>
+               <ul>
+                  <a href="/dz/aijiaOu"><li>欧式系列</li></a>
+                  <a href="/dz/aijiaSha"><li>沙发系列</li></a>
+                  <a href="/dz/aijiaShi"><li>实木系列</li></a>
+                  <a href="/dz/aijiaBanshi"><li>板式系列</li></a>
+                  <a href="/dz/aijiaBangong"><li>办公系列</li></a>
+                  <a href="/dz/aijiaVi"><li>视频</li></a>
+                  <a href="/dz/aijiaNews"><li>活动新闻</li></a>
+               </ul>
+            </nav>
+         </div>
+      </header>
+
+      <section>
+         <script>
+            $(function(){
+               var w=$(window).width();
+               var s=w/1366;                              
+               $('#menu').css('width',w);
+               $('#foot').css('width',w);
+               $('nav').css('margin-left',200*s);
+               $('#name').css('margin-left',54*s);
+               $('#name').css('font-size',30*s);
+            })
+         </script>
+         {% block content %}{% endblock %}
+         <div id="clear"></div>
+      </section>
+
+      <footer>
+         <div id="foot">
+            <span id="span1">Copyright © 2014-2015 爱家家俱城</span>
+            <span id="span2"><a href="/dz/aijiaLocation">地址：爱家建材商场北二楼爱家家俱城</a>&nbsp;&nbsp;电话：0412-4801988</span>
+            <span><a href="/dz/mode">返回</a></span>   
+         </div>
+      </footer>
+
+   </body>
+</html>
+

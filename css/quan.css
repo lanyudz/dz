@@ -1,0 +1,147 @@
+*{
+   margin:0px;
+   padding:0px;
+}
+
+body{
+      background:#BEBEBE;
+      text-align:center;
+}
+
+#tai,#lao{
+           width:1055px;
+           margin-left:auto;
+           margin-right:auto;
+}
+
+.imgS{
+       width:320px;
+       height:180px;
+}
+
+#big{
+      border:solid 5px #ffffff;
+      position:absolute;
+      width:900px;
+      height:506px;
+      left:50%;
+      top:50%;
+      margin-left:-450px;
+      margin-top:-253px;
+      display:none;
+      background:#ffffff;
+      position:fixed;
+}
+
+#close{
+        width:40px;
+        height:35px;
+        position:absolute;
+        right:0px;top:0px;
+        background:#ffffff;
+}
+
+header{
+        background:#2B1B16;
+        height:75px;
+}
+
+
+#name{
+       float:left;
+       margin-left:64px;
+       margin-top:16px;
+       height:50px;
+       color:#ffffff;
+       font-size:30px;
+       text-align:center;
+}
+
+span{
+      font-size:16px;
+      margin-left:15px;
+}
+
+nav{
+     float:left;
+     margin-top:36px;
+     margin-left:240px;
+     color:#ffffff;
+     font-size:14px;
+     width:364px;
+     height:30px;
+}
+
+#menu{
+       background:#2B1B16;
+       font-size:14px;
+       height:75px;
+       margin-left:auto;
+       margin-right:auto;
+}
+
+
+ul a{color:#ffffff;}
+
+#clear{
+        border:0px;
+        clear:both;
+}
+
+ul{
+    float:left;
+    list-style-type:none;
+}
+
+ul li{
+       float:left;
+       margin-left:20px;
+}
+
+#fan{margin-left:40px;}
+
+#div1,#div2,#div3{
+                   margin-left:auto;
+                   margin-right:auto;
+                   display:none;
+}
+
+video{
+       margin-top:25px;
+       margin-bottom:30px;
+}
+
+#span2{margin-left:60px;}
+
+#divUs{
+        width:800px;
+        margin-left:auto;
+        margin-right:auto;
+        text-align:left;
+        font-size:17px;
+        color:black;
+        line-height:35px;
+}
+
+#divUs p{text-indent:2em;}
+
+footer{
+        background:#2B1B16;
+        height:32px;
+        color:#ffffff;
+        padding-top:12px;
+}
+
+#foot{
+       margin-left:auto;
+       margin-right:auto;
+       background:#2B1B16;
+}
+
+
+
+
+
+
+
+

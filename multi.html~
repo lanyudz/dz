@@ -1,0 +1,83 @@
+---
+layout: base
+---
+   <video id="viA" width="978px" height="550px" controls="controls">
+     <source src="http://taiandazhong.eicp.net/media/video/v1.webm" type="video/webm" />
+     <source src="http://taiandazhong.eicp.net/media/video/v1.mp4" type="video/mp4" />
+     请升级浏览器
+   </video>
+    
+   <video id="viB" width="978px" height="550px" controls="controls">
+     <source src="http://taiandazhong.eicp.net/media/video/v2.webm" type="video/webm" />
+     <source src="http://taiandazhong.eicp.net/media/video/v2.mp4" type="video/mp4" />
+     请升级浏览器
+   </video>
+
+   <video id="viC" width="978px" height="550px" controls="controls">
+     <source src="{{ site.url }}/video/v3.webm" type="video/webm" />
+     <source src="{{ site.url }}/video/v3.mp4" type="video/mp4" />
+     请升级浏览器
+   </video> 
+
+   <video id="viD" width="978px" height="550px" controls="controls">
+     <source src="http://taiandazhong.eicp.net/media/video/v4.webm" type="video/webm" />
+     <source src="http://taiandazhong.eicp.net/media/video/v4.mp4" type="video/mp4" />
+     请升级浏览器
+   </video>     
+  
+   <video id="viE" width="978px" height="550px" controls="controls">
+     <source src="http://taiandazhong.eicp.net/media/video/v5.webm" type="video/webm" />
+     <source src="http://taiandazhong.eicp.net/media/video/v5.mp4" type="video/mp4" />
+     请升级浏览器
+   </video>       
+
+   <video id="viF" width="978px" height="550px" controls="controls">
+     <source src="http://taiandazhong.eicp.net/media/video/v6.webm" type="video/webm" />
+     <source src="http://taiandazhong.eicp.net/media/video/v6.mp4" type="video/mp4" />
+     请升级浏览器
+   </video>
+       
+   <div id="ope">
+     <div id="0">
+       <img class="imgM" src="{{ site.url }}/image/multi/f1.jpg"/>
+     </div>
+     <div id="1">
+       <img class="imgM" src="{{ site.url }}/image/multi/f2.jpg"/>
+     </div>
+     <div id="2">
+       <img class="imgM" src="{{ site.url }}/image/multi/f3.jpg"/>
+     </div>  
+     <div id="3">
+       <img class="imgM" src="{{ site.url }}/image/multi/f4.jpg"/>
+     </div>
+     <div id="4">
+       <img class="imgM" src="{{ site.url }}/image/multi/f5.jpg"/>
+     </div>
+     <div id="5">
+       <img class="imgM" src="{{ site.url }}/image/multi/f6.jpg"/>
+     </div>
+   </div>
+   <script>
+     $(function(){
+       function random(min,max){
+         return Math.floor(min+Math.random()*(max-min));
+       }    
+       var oVi=$('video');
+       var i=random(0,6);
+       oVi.eq(i).show();
+       oVi[i].play();
+       var s=[$(window).width()]/1353;
+       $('section').css('width',1145*s);
+       $('section').css('margin-top',30*s);
+       var w=978*s,
+       h=w*9/16;
+       $('video').css('width',w);
+       $('video').css('height',h);
+       $('#ope').css('width',164*s);
+       $('#ope div').css('width',160*s);
+       $('#ope div').css('height',90*s);
+       $('.imgM').css('width',160*s);
+       $('.imgM').css('height',90*s);         
+     }) 
+   </script>
+

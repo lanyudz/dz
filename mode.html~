@@ -1,0 +1,801 @@
+---
+layout: base
+---
+   <div id="butt">
+     <div class="1">家居</div>
+     <div class="2">美食</div>
+     <div class="3">服饰</div>
+     <div class="4">婚庆摄影</div>
+     <div class="5">电脑通讯</div>
+     <div class="6">珠宝饰品</div>
+     <div class="7">休闲娱乐</div>
+     <div class="8">工业企业</div>
+     <div class="9">汽车</div>
+     <div class="10">楼盘</div>
+   </div>
+
+   <div class="live" id="live1">
+     <div>
+       <a href="{{ site.url }}/fei">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i1.jpg"/>         
+       </a>
+       <p>菲林格尔地板</p>
+     </div>
+     <div>
+       <a href="{{ site.url }}/meng">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i2.jpg"/>         
+       </a>
+       <p>孟氏木门</p>
+     </div>
+     <div>
+       <a href="{{ site.url }}/lao">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i3.jpg"/>         
+       </a>
+       <p>老板厨房电器</p>
+     </div>
+     <div>
+       <a href="{{ site.url }}/quan">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i4.jpg"/>         
+       </a>
+       <p>泉天下热水器</p>
+     </div>
+     <div>
+       <a href="{{ site.url }}/you">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i5.jpg"/>         
+       </a>
+       <p>优丽雅特窗帘</p>
+     </div>
+     <div>
+       <a href="{{ site.url }}/aijia">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i6.jpg"/>         
+       </a>
+       <p>爱家家俱城</p>
+     </div>
+     <div>
+       <a href="{{ site.url }}/kang">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i7.jpg"/>         
+       </a>
+       <p>东北养生火炕式-床垫</p>
+     </div>
+     <div>
+       <a href="{{ site.url }}/jin">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i8.jpg"/>         
+       </a>
+       <p>金乌炭雕</p>
+     </div>
+     <div>
+       <a href="{{ site.url }}/fa">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i9.jpg"/>         
+       </a>
+       <p>法狮龙吊顶</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i10.jpg"/>         
+       </a>
+       <p>NATUZZI</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i11.jpg"/>         
+       </a>
+       <p>NATUZZI</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/i12.jpg"/>         
+       </a>
+       <p>NATUZZI</p>
+     </div>
+   </div>
+
+   <div class="live" id="live2">
+     <div>
+       <a href="{{ site.url }}/ke">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f1.jpg"/>         
+       </a>
+       <p>可立亚炭火烤肉</p>
+     </div>
+     <div>
+       <a href="{{ site.url }}/sheng">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f2.jpg"/>         
+       </a>
+       <p>圣士烘焙</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f3.jpg"/>         
+       </a>
+       <p>美食</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f4.jpg"/>         
+       </a>
+       <p>美食</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f5.jpg"/>         
+       </a>
+       <p>美食</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f6.jpg"/>         
+       </a>
+       <p>美食</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f7.jpg"/>         
+       </a>
+       <p>美食</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f8.jpg"/>         
+       </a>
+       <p>美食</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f9.jpg"/>         
+       </a>
+       <p>美食</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f10.jpg"/>
+       </a>
+       <p>美食</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f11.jpg"/>         
+       </a>
+       <p>美食</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/f12.jpg"/>         
+       </a>
+       <p>美食</p>
+     </div>
+   </div>
+
+    <div class="live" id="live3">
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g1.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g2.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g3.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g4.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g5.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g6.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g7.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g8.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g9.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g10.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g11.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/g12.jpg"/>         
+       </a>
+       <p>服饰</p>
+     </div>
+   </div>
+ 
+   <div class="live" id="live4">
+     <div>
+       <a href="{{ site.url }}/xiyuan">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o1.jpg"/>         
+       </a>
+       <p>台安僖缘庆典</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o2.jpg"/>         
+       </a>
+       <p>婚庆摄影</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o3.jpg"/>         
+       </a>
+       <p>婚庆摄影</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o4.jpg"/>         
+       </a>
+       <p>婚庆摄影</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o5.jpg"/>         
+       </a>
+       <p>婚庆摄影</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o6.jpg"/>         
+       </a>
+       <p>婚庆摄影</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o7.jpg"/>         
+       </a>
+       <p>婚庆摄影</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o8.jpg"/>         
+       </a>
+       <p>婚庆摄影</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o9.jpg"/>         
+       </a>
+       <p>婚庆摄影</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o10.jpg"/>         
+       </a>
+       <p>婚庆摄影</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o11.jpg"/>         
+       </a>
+       <p>婚庆摄影</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/o12.jpg"/>         
+       </a>
+       <p>婚庆摄影</p>
+     </div>
+   </div>
+ 
+   <div class="live" id="live5">
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q1.jpg"/>         
+       </a>
+       <p>400电话</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q2.jpg"/>         
+       </a>
+       <p>企业彩铃</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q3.jpg"/>         
+       </a>
+       <p>电脑通讯</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q4.jpg"/>         
+       </a>
+       <p>电脑通讯</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q5.jpg"/>         
+       </a>
+       <p>电脑通讯</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q6.jpg"/>         
+       </a>
+       <p>电脑通讯</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q7.jpg"/>         
+       </a>
+       <p>电脑通讯</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q8.jpg"/>         
+       </a>
+       <p>电脑通讯</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q9.jpg"/>         
+       </a>
+       <p>电脑通讯</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q10.jpg"/>         
+       </a>
+       <p>电脑通讯</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q11.jpg"/>         
+       </a>
+       <p>电脑通讯</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/q12.jpg"/>         
+       </a>
+       <p>电脑通讯</p>
+     </div>
+   </div>
+
+   <div class="live" id="live6">
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h1.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h2.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h3.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h4.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h5.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h6.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h7.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h8.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h9.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h10.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h11.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/h12.jpg"/>         
+       </a>
+       <p>珠宝饰品</p>
+     </div>
+   </div>
+
+   <div class="live" id="live7">
+     <div>
+       <a href="http://www.ashyqh.com">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k1.jpg"/>         
+       </a>
+       <p>鞍山市立山区华韵琴行</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k2.jpg"/>         
+       </a>
+       <p>台安雅芳宿根地被花卉</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k3.jpg"/>         
+       </a>
+       <p>台安力宁苗圃</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k4.jpg"/>         
+       </a>
+       <p>休闲娱乐</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k5.jpg"/>         
+       </a>
+       <p>休闲娱乐</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k6.jpg"/>         
+       </a>
+       <p>休闲娱乐</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k7.jpg"/>         
+       </a>
+       <p>休闲娱乐</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k8.jpg"/>         
+       </a>
+       <p>休闲娱乐</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k9.jpg"/>         
+       </a>
+       <p>休闲娱乐</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k10.jpg"/>         
+       </a>
+       <p>休闲娱乐</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k11.jpg"/>         
+       </a>
+       <p>休闲娱乐</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/k12.jpg"/>         
+       </a>
+       <p>休闲娱乐</p>
+     </div>
+   </div>
+
+   <div class="live" id="live8">
+     <div>
+       <a href="{{ site.url }}/drkIndex">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l1.jpg"/>         
+       </a>
+       <p>台安迪瑞科耐磨件硬化有限公司</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l2.jpg"/>         
+       </a>
+       <p>工业企业</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l3.jpg"/>         
+       </a>
+       <p>工业企业</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l4.jpg"/>         
+       </a>
+       <p>工业企业</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l5.jpg"/>         
+       </a>
+       <p>工业企业</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l6.jpg"/>         
+       </a>
+       <p>工业企业</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l7.jpg"/>         
+       </a>
+       <p>工业企业</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l8.jpg"/>         
+       </a>
+       <p>工业企业</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l9.jpg"/>         
+       </a>
+       <p>工业企业</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l10.jpg"/>         
+       </a>
+       <p>工业企业</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l11.jpg"/>         
+       </a>
+       <p>工业企业</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/l12.jpg"/>         
+       </a>
+       <p>工业企业</p>
+     </div>
+   </div>
+
+   <div class="live" id="live9">
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m1.jpg"/>         
+       </a>
+       <p>汽车</p>
+     </div>
+     <div>
+       <a href="http://www.tatygc.com">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m2.jpg"/>         
+       </a>
+       <p>鞍山添赢汽车配件制造有限公司</p>
+     </div>
+     <div>
+       <a href="http://www.tazxqm.com">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m3.jpg"/>         
+       </a>
+       <p>鞍山台安重型汽贸</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m4.jpg"/>         
+       </a>
+       <p>汽车</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m5.jpg"/>         
+       </a>
+       <p>汽车</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m6.jpg"/>         
+       </a>
+       <p>汽车</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m7.jpg"/>         
+       </a>
+       <p>汽车</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m8.jpg"/>         
+       </a>
+       <p>汽车</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m9.jpg"/>         
+       </a>
+       <p>汽车</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m10.jpg"/>         
+       </a>
+       <p>汽车</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m11.jpg"/>         
+       </a>
+       <p>汽车</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/m12.jpg"/>         
+       </a>
+       <p>汽车</p>
+     </div>
+   </div>
+
+   <div class="live" id="live10">
+     <div>
+       <a href="http://www.astyrs.com.cn">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n1.jpg"/>         
+       </a>
+       <p>鞍山天一融盛房地产开发有限公司</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n2.jpg"/>         
+       </a>
+       <p>楼盘</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n3.jpg"/>         
+       </a>
+       <p>楼盘</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n4.jpg"/>         
+       </a>
+       <p>楼盘</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n5.jpg"/>         
+       </a>
+       <p>楼盘</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n6.jpg"/>         
+       </a>
+       <p>楼盘</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n7.jpg"/>         
+       </a>
+       <p>楼盘</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n8.jpg"/>         
+       </a>
+       <p>楼盘</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n9.jpg"/>         
+       </a>
+       <p>楼盘</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n10.jpg"/>         
+       </a>
+       <p>楼盘</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n11.jpg"/>         
+       </a>
+       <p>楼盘</p>
+     </div>
+     <div>
+       <a href="">
+         <img class="imgMode" src="{{ site.url }}/image/mode/n12.jpg"/>
+       </a>
+       <p>楼盘</p>
+     </div>
+   </div>
+
+   <script>
+     $(function(){  
+       $('.1').css('background','#E5E2B1');      
+       $('#butt div').click(function(){        
+         $('#butt div').css('background','#F6F7D9');
+         $(this).css('background','#E5E2B1');
+         $('.live').hide();
+         $('#live'+$(this).attr('class')).show();
+       });
+
+       function size(){
+         var s=[$(window).width()]/1353;
+         $('section').css('width',$(window).width());
+         $('#butt').css('width',110*s);
+         $('#butt').css('margin-top',30*s);
+         $('#butt').css('margin-left',50*s);
+         $('#butt').css('font-size',16*s);
+         $('#butt div').css('width',110*s);
+         $('#butt div').css('height',35*s);
+         $('#butt div').css('line-height',35*s+'px'); 
+         $('#butt div').css('margin-top',10*s);
+         $('.live').css('width',1140*s);
+         $('.live').css('margin-left',10*s);
+         $('.live').css('margin-top',30*s);
+         $('.live div').css('margin-left',20*s);
+         $('.live div').css('margin-top',10*s);
+         $('.live div').css('width',350*s);
+         $('.live div').css('height',240*s);
+         $('.imgMode').css('width',350*s);
+         $('.imgMode').css('height',197*s);
+       }  
+       size();   
+     })
+   </script>
+

@@ -1,0 +1,51 @@
+---
+layout: jinBase
+---
+   <div id="tai"></div>
+   <div id="big">
+     <div id="close">&nbsp;关闭</div>
+   </div>
+
+<script>
+  $(function(){
+    var arr=['金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕','金乌炭雕'];
+
+    for(var i=1;i<27;i++){
+      var oDiv=$("<div id='big"+i+"' class='im' style='float:left;background:#ffffff;'></div>");
+      var oImg=$("<img class='imgS' src='{{ site.url }}/image/jin/s"+i+".jpg'/>");
+      oDiv.append(oImg);
+      oDiv.append(arr[i-1]);
+      $('#tai').append(oDiv);
+    }
+    var cDiv=$("<div style='clear:both;'></div>");          
+    $('#tai').append(cDiv);
+    var s=[$(window).width()]/1366;
+    $('#tai').css('width',1050*s);
+    $('.im').css('width',320*s);
+    $('.im').css('height',385*s);
+    $('.im').css('padding',4*s);
+    $('.im').css('margin-left',16*s);
+    $('.im').css('margin-top',16*s);
+    $('.imgS').css('width',320*s);
+    $('.imgS').css('height',363*s);
+    $('.im').click(function(){
+      var g=$(this).attr('id');
+      var oImg=$("<img class='imgBig' src='{{ site.url }}/image/jin/"+g+".jpg'/>");
+      $('#big img').remove();
+      $('#big').append(oImg);
+      $('#big').css('width',599*s);
+      $('#big').css('height',680*s);
+      $('#big').css('border','border:solid '+4*s);
+      $('#big').css('margin-left',-300*s);
+      $('#big').css('margin-top',-340*s);
+      $('.imgBig').css('width',599*s);
+      $('.imgBig').css('height',680*s);
+      $('#big').fadeIn(500);$('.im').fadeTo(400,0.2);});
+    $('#close').click(function(){
+      $('#big').hide();
+      $('.im').fadeTo(400,1.0);
+    });
+  })    
+</script>
+
+

@@ -1,0 +1,85 @@
+---
+layout: base
+---
+   <div id="l"></div>
+   <div id="r">
+     <div id="1">
+       <img class='imgS' src="{{ site.url }}/image/index/view1.jpg"/>
+     </div>
+     <div id="2">
+       <img class='imgS' src="{{ site.url }}/image/index/view2.jpg"/>
+     </div>
+     <div id="3">
+       <img class='imgS' src="{{ site.url }}/image/index/view3.jpg"/>
+     </div>
+     <div id="4">
+       <img class='imgS' src="{{ site.url }}/image/index/view4.jpg"/>
+     </div>
+     <div id="5">
+       <img class='imgS' src="{{ site.url }}/image/index/view5.jpg"/>
+     </div>
+     <div id="6">
+       <img class='imgS' src="{{ site.url }}/image/index/view6.jpg"/>
+     </div>
+     <div id="7">
+       <img class='imgS' src="{{ site.url }}/image/index/view7.jpg"/>
+     </div>
+     <div id="8">
+       <img class='imgS' src="{{ site.url }}/image/index/view8.jpg"/>
+     </div>
+     <div id="9">
+       <img class='imgS' src="{{ site.url }}/image/index/view9.jpg"/>
+     </div>
+     <div id="10">
+       <img class='imgS' src="{{ site.url }}/image/index/view10.jpg"/>
+     </div>
+     <div id="11">
+       <img class='imgS' src="{{ site.url }}/image/index/view11.jpg"/>
+     </div>
+     <div id="12">
+       <img class='imgS' src="{{ site.url }}/image/index/view12.jpg"/>
+     </div>
+   </div>
+
+   <script>
+     $(function(){
+       var s=[$(window).width()]/1366;
+       $('section').css('width',1310*s);
+       $('section').css('margin-top',20*s);
+       $('#l').css('width',978*s);
+       $('#l').css('height',550*s);
+       $('#r').css('width',328*s);
+       $('#r div').css('width',160*s);
+       $('#r div').css('height',90*s);
+       $('.imgS').css('width',160*s);
+       $('.imgS').css('height',90*s);  
+       var arrUrl=['{{ site.url }}/fei','/','{{ site.url }}/jin','/mo','{{ site.url }}/aijia','/','/','/','/hengtong','{{ site.url }}/sheng','/','/qi'];
+       function random(min,max){
+         return Math.floor(min+Math.random()*(max-min));
+       }        
+       var i=random(1,13);
+       var oImg=$("<a href='"+arrUrl[i-1]+"'><img class='imgBig' src='{{ site.url }}/image/index/view"+i+".jpg'/></a>");
+       $('#l').append(oImg);
+       $('.imgBig').css('width',978*s);
+       $('.imgBig').css('height',550*s);
+
+       $('#r div').click(function(){
+         var g=$(this).attr('id');
+         var oImg=$("<a href='"+arrUrl[g-1]+"'><img class='imgBig' src='{{ site.url }}/image/index/view"+g+".jpg'/></a>");
+         $('#l').empty();
+         $('#l').append(oImg);
+         $('.imgBig').css('width',978*s);
+         $('.imgBig').css('height',550*s);
+       })
+     })
+   </script>
+
+
+
+
+
+
+
+
+
+

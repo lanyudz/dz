@@ -1,0 +1,28 @@
+---
+layout: drkBase
+---
+  <section>
+    <img class="image" src="{{ site.url }}/image/drk/basic.jpg" />
+  </section>
+  <section class="main">
+    <ul class="bar">
+      <li class="total">
+        <a href="">公司概况</a>
+      </li>
+      <li>
+        <a href="">公司简介</a>
+      </li>
+      <li>
+        <a href="">董事长致辞</a>
+      </li>
+      <li>
+        <a href="">社会责任</a>
+      </li>
+      <li>
+        <a href="">联系我们</a>
+      </li>
+    </ul>
+
+    <div class="content">
+    </div>
+  </section>

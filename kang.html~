@@ -1,0 +1,9 @@
+---
+layout: kangBase
+---
+        <section>
+          <img src="{{ site.url }}/image/kang/big1.jpg"/>
+          <img src="{{ site.url }}/image/kang/big2.jpg"/>         
+        </section>
+
+

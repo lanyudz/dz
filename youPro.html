@@ -1,0 +1,31 @@
+---
+layout: youBase
+---
+   <div id="tai"></div>
+   <script>
+     $(function(){
+       var arr=['装修实景','装修实景','装修实景','装修实景','装修实景','装修实景','装修实景','装修实景','装修实景','装修实景','装修实景','装修实景','装修实景','装修实景','装修实景','装修实景','装修实景'];
+
+       for(var i=1;i<10;i++){
+         var oDiv=$("<div id='big"+i+"' class='im' style='float:left;background:#ffffff;'></div>");
+         var oImg=$("<a href='{{ site.url }}/image/you/big"+i+".jpg'><img class='imgS' src='{{ site.url }}/image/you/big"+i+".jpg'/></a>");
+         oDiv.append(oImg);
+         oDiv.append(arr[i-1]);
+         $('#tai').append(oDiv);
+       }
+       var cDiv=$("<div style='clear:both;'></div>");          
+       $('#tai').append(cDiv);
+       var s=[$(window).width()]/1353;
+       $('#tai').css('width',1050*s);
+       $('.im').css('width',320*s);
+       $('.im').css('height',215*s);
+       $('.im').css('padding',4*s);
+       $('.im').css('margin-left',16*s);
+       $('.im').css('margin-top',16*s);
+       $('.imgS').css('width',320*s);
+       $('.imgS').css('height',180*s);
+     })    
+
+</script>
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>文选有机蔬菜</title>
+    <meta charset="utf-8"/>
+    <meta name="Keywords" content="文选有机蔬菜"/>
+    <meta name="Description" content="文选有机蔬菜"/>
+    <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+    <script src="{{ site.url }}/js/wx.js"></script>
+    <link rel="stylesheet" href="{{ site.url }}/css/wx.css"/>
+    <style>footer { margin-top: 15px; }</style>
+  </head>
+  <body>
+    <header>
+      <div id="menu">
+        <div id="name">文选有机蔬菜</div>
+        <nav>
+          <ul>
+            <li>
+              <a href="{{ site.url }}/wxPro">有机蔬菜</a>
+            </li>
+            <li>
+              <a href="{{ site.url }}/wxVi">视频</a>
+            </li>
+            <li>
+              <a href="{{ site.url }}/wxUs">关于我们</a>
+            </li>
+            <li id="fan">
+              <a href="{{ site.url }}/sale">返回</a>
+            </li> 
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      {{ content }}
+      <div id="clear"></div>
+    </section>
+
+    <footer>
+      <div id="foot">
+        <span id="span1">地址：沈阳浑南新区</span>
+        <span id="span2">电话：18240159217</span>
+      </div>
+    </footer>
+
+  </body>
+</html>

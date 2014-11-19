@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>三星绿色生态蔬菜</title>
+    <meta charset="utf-8"/>
+    <meta name="Keywords" content="三星绿色生态蔬菜"/>
+    <meta name="Description" content="三星绿色生态蔬菜"/>
+    <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+    <script src="{{ site.url }}/js/sheng.js"></script>
+    <link rel="stylesheet" href="{{ site.url }}/css/sx.css"/>
+  </head>
+  <body>
+    <header>
+      <div id="menu">
+        <div id="name">三星绿色生态蔬菜</div>
+        <nav>
+          <ul>
+            <li>
+              <a href="{{ site.url }}/sxPro">绿色生态蔬菜</a>
+            </li>
+            <li>
+              <a href="{{ site.url }}/sxVi">视频</a>
+            </li>
+            <li>
+              <a href="{{ site.url }}/sxUs">关于我们</a>
+            </li>
+            <li id="fan">
+              <a href="{{ site.url }}/sale">返回</a>
+            </li>   
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <section>
+      <script>
+        $(function(){
+          var w=$(window).width();
+          var s=w/1366;                             
+          $('#menu').css('width',w);
+          $('#name').css('margin-left',64*s);
+          $('#name').css('font-size',30*s);
+          $('nav').css('margin-left',200*s);
+          $('nav').css('font-size',18*s);
+          $('ul li').css('margin-left',20*s);
+          $('#foot').css('width',w);
+          $('nav').css('margin-left',200*s); 
+        })
+      </script>
+      {{ content }}
+      <div id="clear"></div>
+    </section>
+
+    <footer>
+      <div id="foot">
+        <span id="span1">地址：</span>
+        <span id="span2">电话：</span>
+      </div>
+    </footer>
+
+  </body>
+</html>
+

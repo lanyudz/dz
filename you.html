@@ -1,0 +1,20 @@
+---
+layout: youBase
+---
+   <div id="div1">
+     <img src="{{ site.url }}/image/you/a.jpg"/>
+   </div>
+   <div id="div2">
+     <img src="{{ site.url }}/image/you/b.jpg"/>
+   </div>
+   <div id="div3">
+     <img src="{{ site.url }}/image/you/c.jpg"/>
+   </div>
+   <script>
+      $(function(){ 
+           var h=$(window).height()-119;
+           $('#div1,#div2,#div3').css('height',h);
+           $('img').css('height',h);
+           })
+   </script> 
+
