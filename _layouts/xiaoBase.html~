@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+     <head>
+       <title>小明婚庆</title>
+       <meta charset="utf-8"/>
+       <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+       <script src="{{ site.url }}/js/fei.js"></script>
+       <link rel="stylesheet" href="{{ site.url }}/css/xiao.css"/>
+     </head>
+     <body>
+          <header>
+            <div id="name">小明婚庆</div>
+         </header>
+         <section>
+           {{ content }}
+           <div id="clear"></div>
+         </section>
+         <footer>
+           <span id="span1">地址：庆客隆西门</span><span id="span2">电话：13841241257</span>
+         </footer>
+
+     </body>
+</html>
+
