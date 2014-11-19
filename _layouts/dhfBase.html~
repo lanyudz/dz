@@ -15,11 +15,11 @@
         <div id="name">大伙房有机河鱼</div>
         <nav>
           <ul>
-            <a href="{{ site.url }}/dhfPro/"><li>有机河鱼</li></a>
-            <a href="{{ site.url }}/dhfVi/"><li>视频</li></a>
-            <a href="{{ site.url }}/dhfNews/"><li>活动新闻</li></a>
-            <a href="{{ site.url }}/dhfUs/"><li>关于我们</li></a>
-            <a href="{{ site.url }}/sale/"><li id="fan">返回</li></a>   
+            <a href="{{ site.url }}/dhfPro"><li>有机河鱼</li></a>
+            <a href="{{ site.url }}/dhfVi"><li>视频</li></a>
+            <a href="{{ site.url }}/dhfNews"><li>活动新闻</li></a>
+            <a href="{{ site.url }}/dhfUs"><li>关于我们</li></a>
+            <a href="{{ site.url }}/sale"><li id="fan">返回</li></a>   
           </ul>
         </nav>
       </div>
