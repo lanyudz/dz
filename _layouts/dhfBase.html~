@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>大伙房有机河鱼</title>
+    <meta charset="utf-8"/>
+    <meta name="Keywords" content="大伙房有机河鱼"/>
+    <meta name="Description" content="大伙房有机河鱼"/>
+    <script src="{{ site.url }}js/jquery-2.0.3.min.js"></script>
+    <script src="{{ site.url }}js/fei.js"></script>
+    <link rel="stylesheet" href="{{ site.url }}css/dhf.css"/>
+  </head>
+  <body>
+    <header>
+      <div id="menu">
+        <div id="name">大伙房有机河鱼</div>
+        <nav>
+          <ul>
+            <a href="{{ site.url }}/dhfPro/"><li>有机河鱼</li></a>
+            <a href="{{ site.url }}/dhfVi/"><li>视频</li></a>
+            <a href="{{ site.url }}/dhfNews/"><li>活动新闻</li></a>
+            <a href="{{ site.url }}/dhfUs/"><li>关于我们</li></a>
+            <a href="{{ site.url }}/sale/"><li id="fan">返回</li></a>   
+          </ul>
+        </nav>
+      </div>
+    </header> 
+
+    <section>
+      <script>
+        $(function(){
+          var w=$(window).width();
+          var s=w/1366;
+          $('#menu').css('width',w);
+          $('#foot').css('width',w);
+          $('nav').css('margin-left',250*s);
+          $('nav').css('font-size',16*s);
+          $('#name').css('margin-left',64*s);
+          $('#name').css('font-size',30*s);
+          $('span').css('font-size',16*s);
+          $('#span1').css('margin-left',5*s);
+          $('#span2').css('margin-left',60*s);           
+          $('ul').css('width',400*s);
+          $('ul li').css('margin-left',20*s);
+          $('#fan').css('margin-left',40*s);               
+        })         
+      </script>
+      {{ content }}
+      <div id="clear"></div>
+    </section>
+
+    <footer>
+      <div id="foot"> 
+        <span id="span1">地址：</span>
+        <span id="span2">电话：</span>
+      </div>
+    </footer>
+  </body>
+</html>
+

@@ -5,11 +5,9 @@
     <meta charset="utf-8"/>
     <meta name="Keywords" content="大伙房有机河鱼"/>
     <meta name="Description" content="大伙房有机河鱼"/>
-    <script src="{{STATIC_URL}}js/jquery-2.0.3.min.js"></script>
-    <script src="{{STATIC_URL}}js/fei.js"></script>
-    <link rel="stylesheet" href="{{STATIC_URL}}css/daHuoFang.css"/>
-    {% block js %}{% endblock %}
-    {% block css %}{% endblock %}
+    <script src="{{ site.url }}js/jquery-2.0.3.min.js"></script>
+    <script src="{{ site.url }}js/fei.js"></script>
+    <link rel="stylesheet" href="{{ site.url }}css/dhf.css"/>
   </head>
   <body>
     <header>
@@ -17,11 +15,11 @@
         <div id="name">大伙房有机河鱼</div>
         <nav>
           <ul>
-            <a href="/daHuoFangPro/"><li>有机河鱼</li></a>
-            <a href="/daHuoFangVi/"><li>视频</li></a>
-            <a href="/daHuoFangNews/"><li>活动新闻</li></a>
-            <a href="/daHuoFangUs/"><li>关于我们</li></a>
-            <a href="/sale/"><li id="fan">返回</li></a>   
+            <a href="{{ site.url }}/dhfPro/"><li>有机河鱼</li></a>
+            <a href="{{ site.url }}/dhfVi/"><li>视频</li></a>
+            <a href="{{ site.url }}/dhfNews/"><li>活动新闻</li></a>
+            <a href="{{ site.url }}/dhfUs/"><li>关于我们</li></a>
+            <a href="{{ site.url }}/sale/"><li id="fan">返回</li></a>   
           </ul>
         </nav>
       </div>
@@ -46,13 +44,13 @@
           $('#fan').css('margin-left',40*s);               
         })         
       </script>
-      {% block content %}{% endblock %}
+      {{ content }}
       <div id="clear"></div>
     </section>
 
     <footer>
       <div id="foot"> 
-        <span id="span1"><a href="/feiLocation/">地址：</a></span>
+        <span id="span1">地址：</span>
         <span id="span2">电话：</span>
       </div>
     </footer>

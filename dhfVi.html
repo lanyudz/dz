@@ -1,10 +1,11 @@
-{% extends "daHuoFangBase.html" %}
+---
+layout: dhfBase
+---
 
-{% block content %}
    <video id="viA" controls="controls" autoplay="autoplay">
-     <source src="{{MEDIA_URL}}video/daHuoFang.webm" type="video/webm" />
-     <source src="{{MEDIA_URL}}video/daHuoFang.mp4" type="video/mp4" />
-     您的浏览器不支持 video 标签。   
+     <source src="{{ site.url }}/video/daHuoFang.webm" type="video/webm" />
+     <source src="{{ site.url }}/video/daHuoFang.mp4" type="video/mp4" />
+     您的浏览器不支持。   
    </video>
 
    <script>
@@ -17,5 +18,3 @@
        $('section').css('height',($(window).height()-119));
      })
    </script>
-
-{% endblock %}

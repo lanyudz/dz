@@ -1,12 +1,7 @@
-{% extends "daHuoFangBase.html" %}  
+---
+layout: dhfBase
+---
 
-{% block css %}
-   <style>
-     footer{margin-top:16px;}
-   </style>
-{% endblock %}
-
-{% block content %}
    <div id="tai"></div>
    <div id="big">
      <div id="close">&nbsp;关闭</div>
@@ -57,8 +52,7 @@
          $('#big').hide();
          $('.im').fadeTo(400,1.0);
        });
-     })    
-
+     }) 
    </script>
 
-{% endblock %}
+
