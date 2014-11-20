@@ -1,0 +1,33 @@
+{% extends "dianBase.html" %}
+
+{% block content %}
+   <div id="jia">
+        <div id="jia1">
+             <div id="1" style="background:red;"><img src="{{MEDIA_URL}}image/dian/s1.jpg"/></div>
+             <div id="2"><img src="{{MEDIA_URL}}image/dian/s2.jpg"/></div>
+             <div id="3"><img src="{{MEDIA_URL}}image/dian/s3.jpg"/></div>
+             <div id="4"><img src="{{MEDIA_URL}}image/dian/s4.jpg"/></div>
+             <div id="5"><img src="{{MEDIA_URL}}image/dian/s5.jpg"/></div>
+             <div id="6"><img src="{{MEDIA_URL}}image/dian/s6.jpg"/></div>
+             <div id="7"><img src="{{MEDIA_URL}}image/dian/s7.jpg"/></div>
+        </div>
+   </div>
+
+   <div id="pro"><img src="{{MEDIA_URL}}image/dian/pro1.jpg" /></div>
+
+   <script> 
+      $(function()
+      {
+         $('#jia1 div').click(function()
+         {  
+            $('#jia1 div').css('background','');
+            $(this).css('background','red');
+            var g=$(this).attr('id');
+            var oImg=$("<img src='{{MEDIA_URL}}image/dian/pro"+g+".jpg'/>");
+            $('#pro').empty();
+            $('#pro').append(oImg);
+         });
+      })
+
+   </script>
+{% endblock %}

@@ -1,0 +1,40 @@
+{% extends "xieBase.html" %}
+
+{% block css %}
+<style>
+      footer{margin-top:15px;}
+</style>
+{% endblock %}
+
+{% block content %}
+      <div id="tai">
+      </div>
+      <div id="big">
+           <div id="close">&nbsp;关闭</div>
+      </div>
+
+<script>
+    $(
+      function()
+      {
+        var arr=new Array('诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹');
+
+        for(var i=1;i<10;i++)
+        {
+          var oDiv=$("<div id='big"+i+"' class='big' style='float:left;width:320px;height:220px;margin-left:16px;margin-top:16px;color:#ffffff;background:#3E4044;'></div>");
+          var oImg=$("<img src='{{MEDIA_URL}}image/xie/s"+i+".jpg'/>");
+          oDiv.append(oImg);
+          oDiv.append(arr[i-1]);
+          $('#tai').append(oDiv);
+        }
+          var cDiv=$("<div style='clear:both;'></div>");          
+          $('#tai').append(cDiv);
+          $('.big').click(function(){$('#big').show();var g=$(this).attr('id');var oImg=$("<img src='{{MEDIA_URL}}image/xie/"+g+".jpg'/>");$('#big img').remove();$('#big').append(oImg);});
+          $('#close').click(function(){$('#big').hide();});
+       }     
+     )    
+
+</script>          
+
+
+{% endblock %}
