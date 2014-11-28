@@ -7,6 +7,7 @@ layout: moBase
      <source src="{{ site.url }}video/mo.mp4" type="video/mp4" />
      您的浏览器不支持
    </video>
+
    <script>
      $(function(){
        var w=915*[$(window).width()]/1353,h=w*9/16;

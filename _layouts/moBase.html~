@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>台安大厦摩托城</title>
+          <meta charset="utf-8"/>
+          <meta name="Keywords" content="台安大厦摩托城"/>
+          <meta name="Description" content="台安大厦摩托城"/>
+          <script src="{{STATIC_URL}}js/jquery-2.0.3.min.js"></script>
+          <script src="{{STATIC_URL}}js/fei.js"></script>
+          <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/mo.css"/>
+     </head>
+     <body>
+          <header>
+                 <div id="name">台安大厦摩托城</div>
+                 <nav>
+                     <ul>
+                        <a href="/moPro/"><li>产品系列</li></a>
+                        <a href="/moJia/"><li>产品系列</li></a>
+                        <a href="/moVi/"><li>视频</li></a>
+                        <a href="/moNews/"><li>活动新闻</li></a>
+                        <a href="/moUs/"><li>关于我们</li></a>   
+                     </ul>
+                 </nav>
+          </header>
+
+          <section>
+                  {{ content }}
+                  <div id="clear"></div>
+          </section>
+
+          <footer>
+                 <span id="span1">地址：</span><span id="span2">电话：</span>
+          </footer>
+
+     </body>
+</html>
+

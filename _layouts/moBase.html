@@ -8,8 +8,6 @@
           <script src="{{STATIC_URL}}js/jquery-2.0.3.min.js"></script>
           <script src="{{STATIC_URL}}js/fei.js"></script>
           <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/mo.css"/>
-          {% block js %}{% endblock %}
-          {% block css %}{% endblock %}
      </head>
      <body>
           <header>
@@ -20,14 +18,13 @@
                         <a href="/moJia/"><li>产品系列</li></a>
                         <a href="/moVi/"><li>视频</li></a>
                         <a href="/moNews/"><li>活动新闻</li></a>
-                        <a href="/moUs/"><li>关于我们</li></a>
-                        <a href="/mode/"><li id="fan">返回</li></a>   
+                        <a href="/moUs/"><li>关于我们</li></a>   
                      </ul>
                  </nav>
           </header>
 
           <section>
-                  {% block content %}{% endblock %}
+                  {{ content }}
                   <div id="clear"></div>
           </section>
 
