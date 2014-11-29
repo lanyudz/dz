@@ -616,10 +616,10 @@ layout: base
 
    <div class="live" id="live9">
      <div>
-       <a href="">
+       <a href="{{ site.url }}/acPro">
          <img class="imgMode" src="{{ site.url }}/image/mode/m1.jpg"/>         
        </a>
-       <p>汽车</p>
+       <p>安程汽车租赁</p>
      </div>
      <div>
        <a href="http://www.tatygc.com">
