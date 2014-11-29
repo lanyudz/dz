@@ -22,7 +22,7 @@ layout: moBase
           $('#tai').append(cDiv);
           $('.im').click(function(){
               var g=$(this).attr('id');
-              var oImg=$("<img src='{{ site.url }}image/moPro/"+g+".jpg'/>");         
+              var oImg=$("<img src='{{ site.url }}/image/moPro/"+g+".jpg'/>");         
               $('#big img').remove();
               $('#big').append(oImg);
               $('#big').fadeIn(500);
