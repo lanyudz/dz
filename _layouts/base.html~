@@ -31,9 +31,6 @@
             <li class="te">
               <a href="{{ site.url }}/sale">绿色食材</a>
             </li>
-            <li class="te">
-              <a href="">地方特产</a>
-            </li>
 　　    <li class="duo">
               <a href="{{ site.url }}/multi">视频</a>
             </li>
@@ -80,7 +77,7 @@
       })                        
     </script>
 
-　　  <footer>
+    <footer>
       <div id="foot">
         <div class="aa">
           <a href="{{ site.url }}/intro">网站介绍</a>
