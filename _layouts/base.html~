@@ -35,21 +35,19 @@
               <a href="{{ site.url }}/multi">视频</a>
             </li>
 　　    <li class="te">
-              <a href="http://taiandazhong.eicp.net/life/">生活信息</a>
+              <a href="http://162.243.106.60:6789/life/">生活信息</a>
             </li>
             <li class="te">
-              <a href="http://taiandazhong.eicp.net/faci/">便民信息</a>
+              <a href="http://162.243.106.60:6789/faci/">便民信息</a>
             </li>                                   
           </ul> 
         </nav>
       </div>
     </header>
-
     <section>
       {{ content }}
       <div class="clearA"></div>
     </section>
-
     <script>
       $(function(){
         var s=[$(window).width()]/1353;
@@ -76,7 +74,6 @@
         $('.bb').css('height',17*s);                      
       })                        
     </script>
-
     <footer>
       <div id="foot">
         <div class="aa">
