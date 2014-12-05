@@ -13,7 +13,7 @@ layout: xieBase
 
         for(var i=1;i<10;i++){
           var oDiv=$("<div id='big"+i+"' class='big' style='float:left;width:320px;height:220px;margin-left:16px;margin-top:16px;color:#ffffff;background:#3E4044;'></div>");
-          var oImg=$("<img src='{{MEDIA_URL}}image/xie/s"+i+".jpg'/>");
+          var oImg=$("<img src='{{ site.url }}image/xie/s"+i+".jpg'/>");
           oDiv.append(oImg);
           oDiv.append(arr[i-1]);
           $('#tai').append(oDiv);
@@ -23,7 +23,7 @@ layout: xieBase
           $('.big').click(function(){
               $('#big').show();
               var g=$(this).attr('id');
-              var oImg=$("<img src='{{MEDIA_URL}}image/xie/"+g+".jpg'/>");
+              var oImg=$("<img src='{{ site.url }}image/xie/"+g+".jpg'/>");
               $('#big img').remove();
               $('#big').append(oImg);
            });
