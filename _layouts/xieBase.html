@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>诚信大河蟹</title>
+          <meta charset="utf-8"/>
+          <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+          <script src="{{ site.url }}/js/tai.js"></script>
+          <link href="{{ site.url }}/css/xie.css" rel="stylesheet" />
+          {% block css %}{% endblock %}
+     </head>
+     <body>
+          <header>
+                 <div id="name">诚信大河蟹</div>
+                 <nav>
+                     <ul>
+                        <li><a href="{{ site.url }}/xiePro">产品展示</a></li>
+                        <li><a href="{{ site.url }}/xieNews">活动新闻</a></li>
+                        <li><a href="{{ site.url }}/xieUs">关于我们</a></li>
+                     </ul>
+                 </nav>
+         </header>
+
+         <section>
+            {{ content }}
+            <div id="clear"></div>
+         </section>
+
+         <footer>
+                <span id="span1">地址：台安二高西走200米中联石化对过</span><span id="span2">电话：13591201606</span>
+         </footer>
+
+     </body>
+</html>
+
