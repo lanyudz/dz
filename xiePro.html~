@@ -2,34 +2,92 @@
 layout: xieBase
 ---
 
-      <div id="tai">
-      </div>
-      <div id="big">
-           <div id="close">&nbsp;关闭</div>
-      </div>
-<script>
-    $(function(){
-        var arr=['诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹','诚信大河蟹'];
+   <div id="tai">
+     <div id="big1">
+       <img src="{{ site.url }}/image/xie/big1.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+     <div id="big2">
+       <img src="{{ site.url }}/image/xie/big2.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+     <div id="big3">
+       <img src="{{ site.url }}/image/xie/big3.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+     <div id="big4">
+       <img src="{{ site.url }}/image/xie/big4.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+     <div id="big5">
+       <img src="{{ site.url }}/image/xie/big5.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+     <div id="big6">
+       <img src="{{ site.url }}/image/xie/big6.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+     <div id="big7">
+       <img src="{{ site.url }}/image/xie/big7.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+     <div id="big8">
+       <img src="{{ site.url }}/image/xie/big8.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+     <div id="big9">
+       <img src="{{ site.url }}/image/xie/big9.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+     <div id="big10">
+       <img src="{{ site.url }}/image/xie/big10.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+     <div id="big11">
+       <img src="{{ site.url }}/image/xie/big11.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+     <div id="big12">
+       <img src="{{ site.url }}/image/xie/big12.jpg"/>
+       <p>诚信大河蟹</p>
+     </div>
+   </div>
+   <div id="big">
+     <div id="close">&nbsp;关闭</div>
+   </div>
 
-        for(var i=1;i<10;i++){
-          var oDiv=$("<div id='big"+i+"' class='big' style='float:left;width:320px;height:220px;margin-left:16px;margin-top:16px;color:#ffffff;background:#3E4044;'></div>");
-          var oImg=$("<img src='{{ site.url }}image/xie/s"+i+".jpg'/>");
-          oDiv.append(oImg);
-          oDiv.append(arr[i-1]);
-          $('#tai').append(oDiv);
-        }
-          var cDiv=$("<div style='clear:both;'></div>");          
-          $('#tai').append(cDiv);
-          $('.big').click(function(){
-              $('#big').show();
-              var g=$(this).attr('id');
-              var oImg=$("<img src='{{ site.url }}image/xie/"+g+".jpg'/>");
-              $('#big img').remove();
-              $('#big').append(oImg);
-           });
-          $('#close').click(function(){$('#big').hide();});
-       })    
+   <script>
+     $(function(){
+       var s=$(window).width()/1366; 
+       $('#tai').css('width',1050*s);
+       $('#tai div').css('width',320*s);
+       $('#tai div').css('height',215*s);
+       $('#tai div').css('padding',4*s);
+       $('#tai div').css('margin-left',16*s);
+       $('#tai div').css('margin-top',16*s);
+       $('#tai div img').css('width',320*s);
+       $('#tai div img').css('height',180*s);
 
-</script>          
+       $('#tai div').click(function(){
+         var g=$(this).attr('id');
+         var oImg=$("<img class='imgBig' src='{{ site.url }}/image/xie/"+g+".jpg'/>");
+         $('#big img').remove();
+         $('#big').append(oImg);
+         $('#big').css('width',1000*s);
+         $('#big').css('height',562*s);
+         $('#big').css('margin-left',-513*s);
+         $('#big').css('margin-top',-288*s);
+         $('.imgBig').css('width',1000*s);
+         $('.imgBig').css('height',562*s);
+         $('#big').fadeIn(500);
+         $('#tai div').fadeTo(400,0.2);
+       });
 
+       $('#close').click(function(){
+         $('#big').hide();
+         $('#tai div').fadeTo(400,1.0);
+       });
+     })    
+
+   </script>
 
