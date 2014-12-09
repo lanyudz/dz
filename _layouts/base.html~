@@ -32,7 +32,7 @@
               <a href="{{ site.url }}/sale">绿色食材</a>
             </li>
 　　    <li class="duo">
-              <a href="{{ site.url }}/multi">视频</a>
+              <a href="{{ site.url }}/multi">视频专区</a>
             </li>
 　　    <li class="te">
               <a href="http://162.243.106.60:6789/life/">生活信息</a>
