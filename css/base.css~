@@ -169,7 +169,7 @@ nav {
   font-size: 17px;
 }
 
-#extend {
+.extend {
   width: 800px;
   height: 500px;
   line-height: 35px;
@@ -179,6 +179,17 @@ nav {
   margin-bottom: 26px;
   text-align: left;
   font-size: 17px;
+}
+
+.extend p {
+  text-indent: 2em;
+  margin-top: 6px;
+}
+
+.extend .tel {
+  margin-top: 30px;
+  font-weight: 700;
+  text-indent: 1em;
 }
 
 #declare {
