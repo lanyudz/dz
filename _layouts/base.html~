@@ -80,7 +80,7 @@
           <a href="{{ site.url }}/intro">网站介绍</a>
         </div>
         <div class="bb">
-          <a href="{{ site.url }}/extend">推广服务</a>
+          <a href="{{ site.url }}/extend">服务方式</a>
         </div> 
         <div class="bb">
           <a href="{{ site.url }}/declare">免责声明</a>
