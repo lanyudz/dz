@@ -151,7 +151,7 @@ footer {
 
 #foot .aa {
   float: left;
-  margin-left: 130px;
+  margin-left: 120px;
   width: 86px;
   height: 17px;
   border-right: 1px solid #363D41;
