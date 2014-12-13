@@ -164,8 +164,6 @@ footer {
   border-right: 1px solid #363D41;
 }
 
-#bei { margin-left: 150px; }
-
 #foot div { margin-top: 10px; }
 
 #foot #bb { border-right: 0; }
@@ -185,7 +183,7 @@ footer {
 
 #bei {
   float: left;
-  margin-left: 100px;
+  margin-left: 80px;
 }
 
 #tong {
