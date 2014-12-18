@@ -4,7 +4,7 @@
           <title>集团彩铃</title>
           <meta charset="utf-8"/>
           <script src="{{STATIC_URL}}js/jquery-2.0.3.min.js"></script>
-          <link rel="stylesheet" type="text/css" href="{{STATIC_URL}}css/qi.css"/>
+          <link rel="stylesheet" href="{{STATIC_URL}}css/qi.css"/>
      </head>
      <body>
           <header>
