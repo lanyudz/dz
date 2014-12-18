@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>联通400</title>
+          <meta charset="utf-8"/>
+          <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+          <link href="{{ site.url }}/css/zj.css" rel="stylesheet" />
+     </head>
+     <body>
+          <header>
+             <div id="name">联通400</div>
+          </header>
+          {{ content }}
+          <footer>
+                 <div>地址：台安&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：13998023115</div>
+          </footer>
+     </body>
+</html>
+
