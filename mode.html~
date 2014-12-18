@@ -328,7 +328,7 @@ layout: base
        <p>企业彩铃</p>
      </div>
      <div>
-       <a href="">
+       <a href="{{ site.url }}/pos">
          <img class="imgMode" src="{{ site.url }}/image/mode/q3.jpg"/>         
        </a>
        <p>pos机</p>
