@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html>
      <head>
-          <title>无线座机</title>
+          <title>短信群发</title>
           <meta charset="utf-8"/>
           <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
           <link rel="stylesheet" href="{{ site.url }}/css/zj.css"/>
      </head>
      <body>
           <header>
-             <div id="name">无线座机</div>
+             <div id="name">短信群发</div>
           </header>
           {{ content }}
           <footer>

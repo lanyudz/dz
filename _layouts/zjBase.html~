@@ -3,8 +3,8 @@
      <head>
           <title>无线座机</title>
           <meta charset="utf-8"/>
-          <script src="{{STATIC_URL}}js/jquery-2.0.3.min.js"></script>
-          <link rel="stylesheet" href="{{STATIC_URL}}css/zj.css"/>
+          <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+          <link rel="stylesheet" href="{{ site.url }}/css/zj.css"/>
      </head>
      <body>
           <header>
