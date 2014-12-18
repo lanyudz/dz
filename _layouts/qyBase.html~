@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <title>企业彩铃</title>
+          <meta charset="utf-8"/>
+          <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+          <link rel="stylesheet" href="{{ site.url }}/css/zj.css"/>
+     </head>
+     <body>
+          <header>
+             <div id="name">企业彩铃</div>
+          </header>
+          {{ content }}
+          <footer>
+                 <div>地址：台安&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;电话：13998023115</div>
+          </footer>
+     </body>
+</html>
+
