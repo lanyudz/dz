@@ -44,7 +44,10 @@
             </li>
             <li class="te">
               <a href="http://162.243.106.60:6789/faci/">便民信息</a>
-            </li>                                   
+            </li>
+            <li class="te">
+              <a href="{{ site.url }}/shop">代销店</a>
+            </li>                   
           </ul> 
         </nav>
       </div>
