@@ -1,63 +1,57 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
   <head>
-    <title>三星绿色生态蔬菜</title>
     <meta charset="utf-8"/>
-    <meta name="Keywords" content="三星绿色生态蔬菜"/>
-    <meta name="Description" content="三星绿色生态蔬菜"/>
+    <meta name="Keywords" content="三星生态"/>
+    <meta name="Description" content="三星生态"/>
+    <title>三星生态</title>
+    <link rel="stylesheet" href="{{ site.url }}/css/sxBase.css"/>
+    <link rel="stylesheet" href="{{ site.url }}/css/page.css"/>
     <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
-    <script src="{{ site.url }}/js/sheng.js"></script>
-    <link rel="stylesheet" href="{{ site.url }}/css/sx.css"/>
   </head>
   <body>
     <header>
-      <div id="menu">
-        <div id="name">三星绿色生态蔬菜</div>
-        <nav>
-          <ul>
-            <li>
-              <a href="{{ site.url }}/sxPro">绿色生态蔬菜</a>
-            </li>
-            <li>
-              <a href="{{ site.url }}/sxVi">视频</a>
-            </li>
-            <li>
-              <a href="{{ site.url }}/sxUs">关于我们</a>
-            </li>
-            <li id="fan">
-              <a href="{{ site.url }}/sale">返回</a>
-            </li>   
-          </ul>
-        </nav>
-      </div>
-    </header>
-
-    <section>
+      <div class="title">
+        <span class="span1">三星生态</span>
+        <span class="span2"></span>
+      </div>      
+      <nav>          
+        <ul>
+          <li class="shou">
+            <a href="{{ site.url }}/sx/greens">绿色蔬菜</a>
+          </li>
+          <li class="st">
+            <a href="{{ site.url }}/sx/park">礼品菜</a>
+          </li>
+　　  <li class="te">
+            <a href="{{ site.url }}/sx/fruits">南方水果</a>
+          </li>
+　　  <li class="pp">
+            <a href="{{ site.url }}/sx/brand">品牌认证</a>
+          </li>
+        </ul> 
+      </nav>      
+    </header>    
+      {{ content }}
       <script>
         $(function(){
           var w=$(window).width();
-          var s=w/1366;                             
-          $('#menu').css('width',w);
-          $('#name').css('margin-left',64*s);
-          $('#name').css('font-size',30*s);
-          $('nav').css('margin-left',200*s);
-          $('nav').css('font-size',18*s);
-          $('ul li').css('margin-left',20*s);
-          $('#foot').css('width',w);
-          $('nav').css('margin-left',200*s); 
-        })
+          $('.image').css('width',w);
+        });
       </script>
-      {{ content }}
-      <div id="clear"></div>
-    </section>
-
     <footer>
       <div id="foot">
-        <span id="span1">地址：沈阳浑南新区</span>
-        <span id="span2">电话：18240159217</span>
+        <div class="aa">
+          <a href="">网站介绍</a>
+        </div>
+        <div class="bb">
+          <a href="">免责声明</a>
+        </div>
+        <div class="bb" id="bb">
+          <a href="{{ site.url }}/contact">联系我们</a>
+        </div>
+        <div id="bei">Copyright © 2015 三星生态</div>       
       </div>
-    </footer>
-
+    </footer>   
   </body>
 </html>
-

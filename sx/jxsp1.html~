@@ -1,0 +1,188 @@
+---
+layout: sxBase
+---
+    <section>
+      <img class="image" src="{{ site.url }}/image/jiu/jxsp.jpg" />
+    </section>
+
+    <section class="goods" id="goods">
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx1.jpg"/>
+       </a>
+       <p class="name">澳门牛肉粒</p>
+       <p class="group">团购价：￥20元</p>
+       <p>市场价：￥28元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx2.jpg"/>         
+       </a>
+       <p class="name">澳门四宝肉松蛋卷</p>
+       <p class="group">团购价：￥12元</p>
+       <p>市场价：￥15元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx3.jpg"/>         
+       </a>
+       <p class="name">北京二锅头</p>
+       <p class="group">团购价：￥2元</p>
+       <p>市场价：￥4.5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx4.jpg"/>         
+       </a>
+       <p class="name">北京二锅头</p>
+       <p class="group">团购价：￥5.5元</p>
+       <p>市场价：￥9元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx5.jpg"/>         
+       </a>
+       <p class="name">北京桂花酸梅汤</p>
+       <p class="group">团购价：￥4.5元/300g</p>
+       <p>市场价：￥8元/300g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx6.jpg"/>         
+       </a>
+       <p class="name">法罗兰葡萄酒</p>
+       <p class="group">团购价：￥43元/750g</p>
+       <p>市场价：￥78元/750g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx7.jpg"/>         
+       </a>
+       <p class="name">菲律宾芒果干</p>   
+       <p class="group">团购价：￥6.5元</p>
+       <p>市场价：￥10元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx8.jpg"/>         
+       </a>
+       <p class="name">阜丰味精</p>
+       <p class="group">团购价：￥13元/1000g</p>
+       <p>市场价：￥18元/1000g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx9.jpg"/>         
+       </a>
+       <p class="name">沟帮子熏鸡</p>
+       <p class="group">团购价：￥24.5元/500g</p>
+       <p>市场价：￥31.5元/500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx10.jpg"/>         
+       </a>
+       <p class="name">桂圆肉</p>
+       <p class="group">团购价：￥38元/500g</p>
+       <p>市场价：￥60元/500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx11.jpg"/>         
+       </a>
+       <p class="name">韩国菠萝汁</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx12.jpg"/>         
+       </a>
+       <p class="name">韩国海苔</p>
+       <p class="group">团购价：￥8元/袋</p>
+       <p>市场价：￥12元/袋</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx13.jpg"/>         
+       </a>
+       <p class="name">韩国芒果汁</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx14.jpg"/>         
+       </a>
+       <p class="name">韩国葡萄汁</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx15.jpg"/>         
+       </a>
+       <p class="name">韩国桃汁</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥6元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx16.jpg"/>         
+       </a>
+       <p class="name">和田玉枣六星</p>
+       <p class="group">团购价：￥45元/500g</p>
+       <p>市场价：￥60元/500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx17.jpg"/>         
+       </a>
+       <p class="name">和田玉枣四星</p>
+       <p class="group">团购价：￥40元/500g</p>
+       <p>市场价：￥55元/500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx18.jpg"/>         
+       </a>
+       <p class="name">红袍花椒粉</p>
+       <p class="group">团购价：￥5.5元</p>
+       <p>市场价：￥9.5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx19.jpg"/>         
+       </a>
+       <p class="name">金厨玉米粒</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥6.5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx20.jpg"/>         
+       </a>
+       <p class="name">凯望包子饺子调味料</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥4.5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx21.jpg"/>         
+       </a>
+       <p class="name">凯望炖鸡香料</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥5元</p>
+     </div>
+     <ul class="page">
+       <li class="page1">
+         <a href="{{ site.url }}/jxsp1">1</a>
+       </li>
+       <li class="page2">
+         <a href="{{ site.url }}/jxsp2">2</a>
+       </li>
+       <li class="page2">
+         <a href="{{ site.url }}/jxsp3">3</a>
+       </li>
+     </ul>
+ </section>
