@@ -12,9 +12,9 @@
                  <div id="name">诚信大河蟹</div>
                  <nav>
                      <ul>
-                        <li><a href="{{ site.url }}/xiePro">产品展示</a></li>
-                        <li><a href="{{ site.url }}/xieNews">活动新闻</a></li>
-                        <li><a href="{{ site.url }}/xieUs">关于我们</a></li>
+                        <li><a href="{{ site.url }}/xie/pro">产品展示</a></li>
+                        <li><a href="{{ site.url }}/xie/news">活动新闻</a></li>
+                        <li><a href="{{ site.url }}/xie/us">关于我们</a></li>
                      </ul>
                  </nav>
          </header>
