@@ -628,7 +628,7 @@ layout: base
        <p>鞍山添赢汽车配件制造有限公司</p>
      </div>
      <div>
-       <a href="{{ site.url }}/acPro">
+       <a href="{{ site.url }}/ac/pro">
          <img class="imgMode" src="{{ site.url }}/image/mode/m1.jpg"/>         
        </a>
        <p>安程汽车租赁</p>
