@@ -91,7 +91,7 @@ layout: base
 
    <div class="live" id="live2">
      <div>
-       <a href="{{ site.url }}/ke">
+       <a href="{{ site.url }}/ke/ke">
          <img class="imgMode" src="{{ site.url }}/image/mode/f1.jpg"/>         
        </a>
        <p>可立亚炭火烤肉</p>
