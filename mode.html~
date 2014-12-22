@@ -34,13 +34,13 @@ layout: base
        <p>老板厨房电器</p>
      </div>
      <div>
-       <a href="{{ site.url }}/quan">
+       <a href="{{ site.url }}/quan/quan">
          <img class="imgMode" src="{{ site.url }}/image/mode/i4.jpg"/>         
        </a>
        <p>泉天下热水器</p>
      </div>
      <div>
-       <a href="{{ site.url }}/you">
+       <a href="{{ site.url }}/you/you">
          <img class="imgMode" src="{{ site.url }}/image/mode/i5.jpg"/>         
        </a>
        <p>优丽雅特窗帘</p>
