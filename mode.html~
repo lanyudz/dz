@@ -28,7 +28,7 @@ layout: base
        <p>孟氏木门</p>
      </div>
      <div>
-       <a href="{{ site.url }}/lao">
+       <a href="{{ site.url }}/lao/lao">
          <img class="imgMode" src="{{ site.url }}/image/mode/i3.jpg"/>         
        </a>
        <p>老板厨房电器</p>
