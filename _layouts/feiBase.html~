@@ -16,16 +16,16 @@
         <nav>
           <ul>
             <li>
-              <a href="{{ site.url }}/feiPro">装修实景</a>
+              <a href="{{ site.url }}/fei/pro">装修实景</a>
             </li>
             <li>
-              <a href="{{ site.url }}/feiVi">视频</a>
+              <a href="{{ site.url }}/fei/vi">视频</a>
             </li>
             <li>
-              <a href="{{ site.url }}/feiNews">活动新闻</a>
+              <a href="{{ site.url }}/fei/news">活动新闻</a>
             </li>
             <li>
-              <a href="{{ site.url }}/feiUs">关于我们</a>
+              <a href="{{ site.url }}/fei/us">关于我们</a>
             </li>
           </ul>
         </nav>

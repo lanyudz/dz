@@ -16,7 +16,7 @@ layout: base
 
    <div class="live" id="live1">
      <div>
-       <a href="{{ site.url }}/fei">
+       <a href="{{ site.url }}/fei/fei">
          <img class="imgMode" src="{{ site.url }}/image/mode/i1.jpg"/>         
        </a>
        <p>菲林格尔地板</p>
