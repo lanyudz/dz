@@ -15,16 +15,16 @@
       <nav>
         <ul>
           <li>
-            <a href="{{ site.url }}/jinPro">产品系列</a>
+            <a href="{{ site.url }}/jw/pro">产品系列</a>
           </li>
           <li>
-            <a href="{{ site.url }}/jinVi">视频</a>
+            <a href="{{ site.url }}/jw/vi">视频</a>
           </li>
           <li>
-            <a href="{{ site.url }}/jinNews">活动新闻</a>
+            <a href="{{ site.url }}/jw/news">活动新闻</a>
           </li>
           <li>
-            <a href="{{ site.url }}/jinUs">关于我们</a>
+            <a href="{{ site.url }}/jw/us">关于我们</a>
           </li>
         </ul>
       </nav>
