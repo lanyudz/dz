@@ -1,0 +1,32 @@
+---
+layout: drkBase
+---
+  <section>
+    <img class="image" src="{{ site.url }}/image/drk/basic1.jpg" />
+  </section>
+  <section class="main">
+    <ul class="bar">
+      <li class="total">人力资源</li>
+      <li>
+        <a href="{{ site.url }}/drk/HR1">社会招聘</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/HR2">福利待遇</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/HR3">员工培训</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/HR4">在线应聘</a>
+      </li>
+    </ul>
+
+    <div class="content">
+      <h3>福利待遇</h3>
+      <span>您当前位置：首页 > 人力资源 > 福利待遇</span>
+      <hr></hr>
+      <p>台安迪瑞科秉承“自我超越，持续共赢”的发展观，为员工缴纳“五险一金”，提供竞争力的薪酬、专业的产品技能培训、带薪年假、国际国内旅游及广阔的发展空间。 
+      </p>
+    </div>
+    <div class="clearA"></div>
+  </section>

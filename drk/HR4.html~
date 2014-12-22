@@ -1,0 +1,37 @@
+---
+layout: drkBase
+---
+  <section>
+    <img class="image" src="{{ site.url }}/image/drk/basic1.jpg" />
+  </section>
+  <section class="main">
+    <ul class="bar">
+      <li class="total">人力资源</li>
+      <li>
+        <a href="{{ site.url }}/drk/HR1">社会招聘</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/HR2">福利待遇</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/HR3">员工培训</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/HR4">在线应聘</a>
+      </li>
+    </ul>
+
+    <div class="content">
+      <h3>在线应聘</h3>
+      <span>您当前位置：首页 > 人力资源 > 在线应聘</span>
+      <hr></hr>
+      <p>台安迪瑞科面试入职流程分为以下6个环节：</p>
+      <p>初试——复试——薪资福利沟通——体检——发送OFFER——办理入职</p>
+      <p>（整体周期为1-2周，如遇到特殊情况有可能延长）</p>
+      <p>工作时间：8:00-17:00，双休（月末单休）</p>
+      <p>工作地点：辽宁省 鞍山市 台安县 新台镇东桓村工业园区</p>
+      <p>薪资待遇：面议</p>
+      <p>求职者请先投递简历至邮箱 tadrk@sina.com，合则约见。</p>
+    </div>
+    <div class="clearA"></div>
+  </section>

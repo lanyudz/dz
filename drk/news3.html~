@@ -1,0 +1,60 @@
+---
+layout: drkBase
+---
+  <section>
+    <img class="image" src="{{ site.url }}/image/drk/basic1.jpg" />
+  </section>
+  <section class="main">
+    <ul class="bar">
+      <li class="total">新闻中心</li>
+      <li>
+        <a href="{{ site.url }}/drk/news1">企业新闻</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/news2">行业资讯</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/news3">视频展示</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/news4">专题报道</a>
+      </li>
+    </ul>
+
+    <div class="content" id="pic">
+      <h3>视频展示</h3>
+      <span>您当前位置：首页 > 新闻中心 > 视频展示</span>
+      <hr></hr>
+      <div class="pic">
+        <a href="{{ site.url }}/drkVideo1">
+          <img src="{{ site.url }}/image/drk/video.jpg"/>
+        </a>
+        <p>迪瑞科视频</p>
+      </div>
+      <div>
+        <a href="{{ site.url }}/drkVideo2">
+          <img src="{{ site.url }}/image/drk/video.jpg"/>
+        </a>
+        <p>迪瑞科视频</p>
+      </div>
+      <div>
+        <a href="{{ site.url }}/drkVideo3">
+          <img src="{{ site.url }}/image/drk/video.jpg"/>
+        </a>
+        <p>迪瑞科视频</p>
+      </div>
+      <div class="pic">
+        <img src="{{ site.url }}/image/drk/video.jpg"/>
+        <p>迪瑞科视频</p>
+      </div>
+      <div>
+        <img src="{{ site.url }}/image/drk/video.jpg"/>
+        <p>迪瑞科视频</p>
+      </div>
+      <div>
+        <img src="{{ site.url }}/image/drk/video.jpg"/>
+        <p>迪瑞科视频</p>
+      </div>      
+    </div>
+    <div class="clearA"></div>
+  </section>

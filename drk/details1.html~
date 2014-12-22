@@ -1,0 +1,38 @@
+---
+layout: drkBase
+---
+  <section>
+    <img class="image" src="{{ site.url }}/image/drk/basic1.jpg" />
+  </section>
+  <section class="main">
+    <ul class="bar">
+      <li class="total">产品中心</li>
+      <li>
+        <a href="{{ site.url }}/drk/pro1">产品展示</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/pro2">技术原理</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/pro3">技术优势</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/pro4">质量管控</a>
+      </li>
+    </ul>
+
+    <div class="content" id="pic">
+      <h3 class="details">产品详情</h3>
+      <span>您当前位置：首页 > 产品中心 > 产品展示 > 产品详情</span>
+      <hr></hr>
+      <div class="pic" id="bigpic">
+        <a href="{{ site.url }}/drk/details1">
+          <img src="{{ site.url }}/image/drk/video.jpg"/>
+        </a>
+        <p>迪瑞科产品</p>
+      </div>
+      <p class="text">自英国人Hadfield R A发明高锰钢以来,高锰钢由于具有冷加工特性和高的强韧性,一直在耐磨材料中扮演着重要角色。虽然高锰钢具有前述的两个特性,但大多数高锰钢工件在使用过程中往往会提前退役。
+      </p>
+    </div>
+    <div class="clearA"></div>
+  </section>

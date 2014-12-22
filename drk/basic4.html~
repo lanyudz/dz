@@ -1,0 +1,37 @@
+---
+layout: drkBase
+---
+  <section>
+    <img class="image" src="{{ site.url }}/image/drk/basic4.jpg" />
+  </section>
+  <section class="main">
+    <ul class="bar">
+      <li class="total">公司概况</li>
+      <li>
+        <a href="{{ site.url }}/drk/basic1">公司简介</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/basic2">董事长致辞</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/basic3">社会责任</a>
+      </li>
+      <li>
+        <a href="{{ site.url }}/drk/basic4">联系我们</a>
+      </li>
+    </ul>
+
+    <div class="content">
+      <h3>联系我们</h3>
+      <span>您当前位置：首页 > 公司概况 > 联系我们</span>
+      <hr></hr>
+      <p class="contact">台安迪瑞科耐磨件硬化有限公司销售部</p>
+      <p class="contact">地址：中国·辽宁省 鞍山市 台安县 新台镇东桓村工业园区</p>
+      <p class="contact">销售电话：0412-4642202</p>
+      <p class="contact">办公电话：0412-4642203</p>
+      <p class="contact">值班电话：0412-4641221</p>
+      <p class="contact">传真：0412-4642518</p>
+      <p class="contact">邮编：114100</p>
+    </div>
+    <div class="clearA"></div>
+  </section>
