@@ -22,7 +22,7 @@ layout: base
        <p>菲林格尔地板</p>
      </div>
      <div>
-       <a href="{{ site.url }}/meng">
+       <a href="{{ site.url }}/meng/meng">
          <img class="imgMode" src="{{ site.url }}/image/mode/i2.jpg"/>         
        </a>
        <p>孟氏木门</p>

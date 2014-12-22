@@ -15,10 +15,10 @@
                       <div id="name">孟氏木门</div>
                       <nav>
                           <ul>
-                             <a href="{{ site.url }}/mengPro"><li>产品展示</li></a>
-                             <a href="{{ site.url }}/mengVi"><li>视频</li></a>
-                             <a href="{{ site.url }}/mengNews"><li>活动新闻</li></a>
-                             <a href="{{ site.url }}/mengUs"><li>关于我们</li></a>   
+                             <a href="{{ site.url }}/meng/pro"><li>产品展示</li></a>
+                             <a href="{{ site.url }}/meng/vi"><li>视频</li></a>
+                             <a href="{{ site.url }}/meng/news"><li>活动新闻</li></a>
+                             <a href="{{ site.url }}/meng/us"><li>关于我们</li></a>   
                           </ul>
                       </nav>
                  </div>
