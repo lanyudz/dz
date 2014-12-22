@@ -4,7 +4,7 @@
           <title>老板厨房电器</title>
           <meta charset="utf-8"/>
           <meta name="Keywords" content="台安老板厨房电器"/>
-          <meta name="Description" content="台安老板厨房电器是老板厨房电器在台安地区唯一授权专卖店，电话：18642287999，地址：邮政局对面。"/>
+          <meta name="Description" content="台安老板厨房电器"/>
           <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
           <script src="{{ site.url }}/js/fei.js"></script>
           <link rel="stylesheet" href="{{ site.url }}/css/lao.css"/>
@@ -14,10 +14,10 @@
                  <div id="name">老板厨房电器</div>
                  <nav>
                      <ul>
-                        <a href="{{ site.url }}/laoPro"><li>产品系列</li></a>
-                        <a href="{{ site.url }}/laoVi"><li>视频</li></a>
-                        <a href="{{ site.url }}/laoNews"><li>活动新闻</li></a>
-                        <a href="{{ site.url }}/laoUs"><li>关于我们</li></a>
+                        <a href="{{ site.url }}/lao/pro"><li>产品系列</li></a>
+                        <a href="{{ site.url }}/lao/vi"><li>视频</li></a>
+                        <a href="{{ site.url }}/lao/news"><li>活动新闻</li></a>
+                        <a href="{{ site.url }}/lao/us"><li>关于我们</li></a>
                      </ul>   
                  </nav>
           </header>
