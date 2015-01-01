@@ -59,7 +59,7 @@ layout: dhfBase
        <a href="">
          <img src="{{ site.url }}/image/dhf/yj8.jpg"/>         
        </a>
-       <p class="name">活鲤鱼(3斤以下,不含3斤）</p>
+       <p class="name">活鲤鱼(小于3斤)</p>
        <p class="group">优惠价：￥17元／500g</p>
      </div>
      <div>
