@@ -1,0 +1,188 @@
+---
+layout: sxBase
+---
+    <section>
+      <img class="image" src="{{ site.url }}/image/jiu/jxsp.jpg" />
+    </section>
+
+    <section class="goods" id="goods">
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx43.jpg"/>
+       </a>
+       <p class="name">蜂蜜</p>
+       <p class="group">团购价：￥24元</p>
+       <p>市场价：￥40元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx44.jpg"/>         
+       </a>
+       <p class="name">金针蘑</p>
+       <p class="group">团购价：￥5.5元</p>
+       <p>市场价：￥8元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx45.jpg"/>      
+       </a>
+       <p class="name">玛咖酒</p>
+       <p class="group">团购价：￥150元</p>
+       <p>市场价：￥185元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx46.jpg"/>   
+       </a>
+       <p class="name">西洋参片</p>
+       <p class="group">团购价：￥600元/斤</p>
+       <p>市场价：￥680元/斤</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx47.jpg"/>
+       </a>
+       <p class="name">阿胶片</p>
+       <p class="group">团购价：￥55元</p>
+       <p>市场价：￥80元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx48.jpg"/>         
+       </a>
+       <p class="name">橄榄菜</p>
+       <p class="group">团购价：￥4元</p>
+       <p>市场价：￥7元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx49.jpg"/>
+       </a>
+       <p class="name">金针磨</p>   
+       <p class="group">团购价：￥4.5元</p>
+       <p>市场价：￥5.5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx50.jpg"/>
+       </a>
+       <p class="name">圣元羊奶粉</p>
+       <p class="group">团购价：￥138元</p>
+       <p>市场价：￥198元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx51.jpg"/>         
+       </a>
+       <p class="name">阿胶</p>
+       <p class="group">团购价：￥45元</p>
+       <p>市场价：￥65元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx52.jpg"/>         
+       </a>
+       <p class="name">红烧牛肉罐头</p>
+       <p class="group">团购价：￥10.5元</p>
+       <p>市场价：￥13.5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx53.jpg"/>         
+       </a>
+       <p class="name">鹿鞭糕</p>
+       <p class="group">团购价：￥80元</p>
+       <p>市场价：￥120元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx54.jpg"/>         
+       </a>
+       <p class="name">午餐肉罐头</p>
+       <p class="group">团购价：￥9.5元</p>
+       <p>市场价：￥12.5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx55.jpg"/>         
+       </a>
+       <p class="name">蚕蛾鹿鞭酒</p>
+       <p class="group">团购价：￥155元</p>
+       <p>市场价：￥208元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx56.jpg"/>         
+       </a>
+       <p class="name">黄花鱼罐头</p>
+       <p class="group">团购价：￥5.5元</p>
+       <p>市场价：￥7.5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx57.jpg"/>         
+       </a>
+       <p class="name">鹿参糕</p>
+       <p class="group">团购价：￥55元</p>
+       <p>市场价：￥85元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx58.jpg"/>         
+       </a>
+       <p class="name">西洋参段</p>
+       <p class="group">团购价：￥650元/斤</p>
+       <p>市场价：￥700元/斤</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx59.jpg"/>         
+       </a>
+       <p class="name">椴树蜂蜜</p> 
+       <p class="group">团购价：￥48元</p>
+       <p>市场价：￥90元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx60.jpg"/>         
+       </a>
+       <p class="name">酱鹿腱子</p>
+       <p class="group">团购价：￥55元</p>
+       <p>市场价：￥75元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx61.jpg"/>         
+       </a>
+       <p class="name">鹿心糕</p>
+       <p class="group">团购价：￥60元</p>
+       <p>市场价：￥88元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx62.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group"></p>
+       <p></p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx63.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group"></p>
+       <p></p>
+     </div>
+     <ul class="page">
+       <li class="page1">
+         <a href="{{ site.url }}/jxsp1">1</a>
+       </li>
+       <li class="page2">
+         <a href="{{ site.url }}/jxsp2">2</a>
+       </li>
+       <li class="page2">
+         <a href="{{ site.url }}/jxsp3">3</a>
+       </li>
+     </ul>
+ </section>

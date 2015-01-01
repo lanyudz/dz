@@ -1,0 +1,188 @@
+---
+layout: sxBase
+---
+    <section>
+      <img class="image" src="{{ site.url }}/image/jiu/jxsp.jpg" />
+    </section>
+
+    <section class="goods" id="goods">
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx22.jpg"/>
+       </a>
+       <p class="name">凯望炖排骨料</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥4.5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx23.jpg"/>         
+       </a>
+       <p class="name">凯望炖肉香料</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx24.jpg"/>         
+       </a>
+       <p class="name">凯望炖鱼香料</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx25.jpg"/>         
+       </a>
+       <p class="name">凯望花椒粉</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥4.5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx26.jpg"/>         
+       </a>
+       <p class="name">凯望酱料包</p>
+       <p class="group">团购价：￥3.5元</p>
+       <p>市场价：￥5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx27.jpg"/>         
+       </a>
+       <p class="name">龙口粉丝</p>
+       <p class="group">团购价：￥2元</p>
+       <p>市场价：￥4元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx28.jpg"/>         
+       </a>
+       <p class="name">马来西亚海宝西梅</p>   
+       <p class="group">团购价：￥12元</p>
+       <p>市场价：￥15元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx29.jpg"/>         
+       </a>
+       <p class="name">马来西亚牛（羊）乳大饼</p>
+       <p class="group">团购价：￥5元</p>
+       <p>市场价：￥8元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx30.jpg"/>         
+       </a>
+       <p class="name">巧妈妈经典红烧酱油</p>
+       <p class="group">团购价：￥13元/2.5升</p>
+       <p>市场价：￥22元/2.5升</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx31.jpg"/>         
+       </a>
+       <p class="name">巧妈妈生抽王</p>
+       <p class="group">团购价：￥13元/2.5升</p>
+       <p>市场价：￥22元/2.5升</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx32.jpg"/>         
+       </a>
+       <p class="name">巧妈妈一品鲜酱油</p>
+       <p class="group">团购价：￥6元/450g</p>
+       <p>市场价：￥8元/450g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx33.jpg"/>         
+       </a>
+       <p class="name">若羌红枣</p>
+       <p class="group">团购价：￥35元/350g</p>
+       <p>市场价：￥48元/350g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx34.jpg"/>         
+       </a>
+       <p class="name">沙诺黄豆酱</p>
+       <p class="group">团购价：￥2.5元/485g</p>
+       <p>市场价：￥3.8元/485g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx35.jpg"/>         
+       </a>
+       <p class="name">适乡蒜蓉酱</p>
+       <p class="group">团购价：￥4元/485g</p>
+       <p>市场价：￥5元/485g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx36.jpg"/>         
+       </a>
+       <p class="name">台湾紫菜</p>
+       <p class="group">团购价：￥2元/30克</p>
+       <p>市场价：￥3.8元/30克</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx37.jpg"/>         
+       </a>
+       <p class="name">泰国牛奶榴莲糖</p>
+       <p class="group">团购价：￥4元</p>
+       <p>市场价：￥6元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx38.jpg"/>         
+       </a>
+       <p class="name">泰国时空猫饮料</p>
+       <p class="group">团购价：￥5元</p>
+       <p>市场价：￥7元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx39.jpg"/>         
+       </a>
+       <p class="name">天然贝侬蜂蜜</p>
+       <p class="group">团购价：￥48元/1000g</p>
+       <p>市场价：￥90元/1000g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx40.jpg"/>         
+       </a>
+       <p class="name">天然黒蜂椴树蜜</p>
+       <p class="group">团购价：￥65元/485g</p>
+       <p>市场价：￥110元/485g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx41.jpg"/>         
+       </a>
+       <p class="name">香道大拉皮</p>
+       <p class="group">团购价：￥3.2元</p>
+       <p>市场价：￥6.5元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/jx42.jpg"/>         
+       </a>
+       <p class="name">香道粉条</p>
+       <p class="group">团购价：￥1.5元</p>
+       <p>市场价：￥3元</p>
+     </div>
+     <ul class="page">
+       <li class="page1">
+         <a href="{{ site.url }}/jxsp1">1</a>
+       </li>
+       <li class="page2">
+         <a href="{{ site.url }}/jxsp2">2</a>
+       </li>
+       <li class="page2">
+         <a href="{{ site.url }}/jxsp3">3</a>
+       </li>
+     </ul>
+  </section>

@@ -1,58 +1,48 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-cn">
   <head>
-    <title>大伙房有机河鱼</title>
     <meta charset="utf-8"/>
     <meta name="Keywords" content="大伙房有机河鱼"/>
     <meta name="Description" content="大伙房有机河鱼"/>
+    <title>大伙房有机河鱼</title>
+    <link rel="stylesheet" href="{{ site.url }}/css/dhfBase.css"/>
+    <link rel="stylesheet" href="{{ site.url }}/css/page.css"/>
     <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
-    <script src="{{ site.url }}/js/fei.js"></script>
-    <link href="{{ site.url }}/css/dhf.css" rel="stylesheet" />
   </head>
   <body>
     <header>
-      <div id="menu">
-        <div id="name">大伙房有机河鱼</div>
-        <nav>
-          <ul>
-            <li><a href="{{ site.url }}/dhf/pro">有机河鱼</a></li>
-            <li><a href="{{ site.url }}/dhf/vi">视频</a></li>
-            <li><a href="{{ site.url }}/dhf/news">活动新闻</a></li>
-            <li><a href="{{ site.url }}/dhf/us">关于我们</a></li>
-          </ul>
-        </nav>
-      </div>
-    </header> 
-
-    <section>
+      <div class="title">
+        <span class="span1">大伙房有机河鱼</span>
+        <span class="span2"></span>
+      </div>      
+      <nav>          
+        <ul>
+          <li class="shou">
+            <a href="{{ site.url }}/dhf/greens">有机河鱼</a>
+          </li>
+          <li class="st">
+            <a href="{{ site.url }}/dhf/park">盒装河鱼</a>
+          </li>
+　　  <li class="te">
+            <a href="{{ site.url }}/dhf/fruits">河鱼制品</a>
+          </li>
+　　  <li class="pp">
+            <a href="{{ site.url }}/dhf/brand">品牌简介</a>
+          </li>
+        </ul> 
+      </nav>      
+    </header>    
+      {{ content }}
       <script>
         $(function(){
           var w=$(window).width();
-          var s=w/1366;
-          $('#menu').css('width',w);
-          $('#foot').css('width',w);
-          $('nav').css('margin-left',250*s);
-          $('nav').css('font-size',16*s);
-          $('#name').css('margin-left',64*s);
-          $('#name').css('font-size',30*s);
-          $('span').css('font-size',16*s);
-          $('#span1').css('margin-left',5*s);
-          $('#span2').css('margin-left',60*s);           
-          $('ul').css('width',400*s);
-          $('ul li').css('margin-left',20*s);
-          $('#fan').css('margin-left',40*s);               
-        })         
+          $('.image').css('width',w);
+        });
       </script>
-      {{ content }}
-      <div id="clear"></div>
-    </section>
-
     <footer>
-      <div id="foot"> 
-        <span id="span1">地址：沈阳浑南新区</span>
-        <span id="span2">电话：18240159217</span>
+      <div id="foot">
+        <div id="bei">Copyright © 2015 大伙房有机河鱼</div>       
       </div>
-    </footer>
+    </footer>   
   </body>
 </html>
-

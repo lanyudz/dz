@@ -1,0 +1,93 @@
+---
+layout: dhfBase
+---
+    <section>
+      <img class="image" src="{{ site.url }}/image/dhf/logo.jpg" />
+    </section>
+
+    <section class="goods" id="goods">
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd1.jpg"/>
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd2.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd3.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥</p> 
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd4.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd5.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd6.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd7.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥0元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd8.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥0元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd9.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥0元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd10.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥0元</p>
+      </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd11.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥0元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/dhf/zd12.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥0元</p>
+     </div>
+  </section>
