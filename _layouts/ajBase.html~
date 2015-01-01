@@ -50,7 +50,7 @@
          <div id="foot">
             <span id="span1">Copyright © 2014-2015 爱家家俱城</span>
             <span id="span2">
-              <a href="{{ site.url }}/aijiaLocation">地址：爱家建材商场北二楼爱家家俱城</a>&nbsp;&nbsp;电话：0412-4801988
+              <a href="{{ site.url }}/aj/location">地址：爱家建材商场北二楼爱家家俱城</a>&nbsp;&nbsp;电话：0412-4801988
             </span>
             <span>
               <a href="{{ site.url }}/mode">返回</a>
