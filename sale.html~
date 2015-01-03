@@ -163,7 +163,7 @@ layout: base
    </div>
    <div class="live" id="live3">
      <div>
-       <a href="">
+       <a href="{{ site.url}}/sg/greens">
          <img class="imgMode" src="{{ site.url }}/image/sale/j1.jpg"/>         
        </a>
        <p>水果</p>
