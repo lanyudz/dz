@@ -1,0 +1,47 @@
+---
+layout: sxBase
+---
+    <section>
+      <img class="image" src="{{ site.url }}/image/jiu/jxsp.jpg" />
+    </section>
+
+    <section class="good" id="good">
+     <p>疯狂抢购</p>
+     <div>       
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/shou1.jpg"/>
+       </a>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/shou2.jpg"/>         
+       </a>
+     </div>
+     <p>功能专区</p>
+     <div class="gong">
+       <a href="">
+         <img style="margin-left:4px;" src="{{ site.url }}/image/jiu/gong1.jpg" />    
+       </a>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/gong2.jpg" />    
+       </a>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/gong3.jpg" />    
+       </a>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/gong4.jpg" />    
+       </a>
+       <a href="">
+         <img style="margin-left:4px;" src="{{ site.url }}/image/jiu/gong5.jpg" />    
+       </a>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/gong6.jpg" />    
+       </a>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/gong7.jpg" />    
+       </a>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/gong8.jpg" />    
+       </a>
+     </div>
+    </section>

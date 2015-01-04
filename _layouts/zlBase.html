@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+<meta charset="utf-8"/>
+<meta name="Keywords" content="杂粮"/>
+<meta name="Description" content="杂粮"/>
+<title>杂粮</title>
+<link rel="stylesheet" href="{{ site.url }}/css/sxBase.css"/>
+<link rel="stylesheet" href="{{ site.url }}/css/page.css"/>
+<script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+</head>
+<body>
+<header>
+<div class="title">
+<span class="span1">杂粮</span>
+<span class="span2"></span>
+</div>
+<nav>
+<ul>
+<li class="shou">
+<a href="{{ site.url }}/zl/greens1">谷物类</a>
+</li>
+<li class="st">
+<a href="{{ site.url }}/zl/park">杂豆类</a>
+</li>
+　　 <li class="te">
+<a href="{{ site.url }}/zl/fruits">块茎类</a>
+</li>
+　　 <li class="pp">
+<a href="{{ site.url }}/zl/brand">其它类</a>
+</li>
+</ul>
+</nav>
+</header>
+{{ content }}
+<script>
+$(function(){
+var w=$(window).width();
+$('.image').css('width',w);
+});
+</script>
+<footer>
+<div id="foot">
+<div id="bei">Copyright © 2015 杂粮</div>
+</div>
+</footer>
+</body>
+</html>

@@ -163,10 +163,10 @@ layout: base
    </div>
    <div class="live" id="live3">
      <div>
-       <a href="{{ site.url}}/sg/greens">
+       <a href="{{ site.url }}/sg/greens">
          <img class="imgMode" src="{{ site.url }}/image/sale/j1.jpg"/>         
        </a>
-       <p>水果</p>
+       <p>水果</p> 
      </div>
      <div>
        <a href="{{ site.url }}/xiePro">
@@ -535,10 +535,10 @@ layout: base
 
    <div class="live" id="live8">
      <div>
-       <a href="">
+       <a href="{{ site.url }}/zl/greens1">
          <img class="imgMode" src="{{ site.url }}/image/sale/l1.jpg"/>         
        </a>
-       <p>台安新华大米</p>
+       <p>杂粮</p>
      </div>
      <div>
        <a href="">

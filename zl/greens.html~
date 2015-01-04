@@ -1,0 +1,156 @@
+---
+layout: zlBase
+---
+    <section>
+      <img class="image" src="{{ site.url }}/image/zl/logo.jpg" />
+    </section>
+
+    <section class="goods" id="goods">
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw1.jpg"/>
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw2.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw3.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p> 
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw4.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw5.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw6.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw7.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw8.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw9.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw10.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+      </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw11.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw12.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw13.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw14.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw15.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+      </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw16.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw17.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw18.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw19.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw20.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/zl/gw21.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价：￥元／500g</p>
+     </div>  
+  </section>
