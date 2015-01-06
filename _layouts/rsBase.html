@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+  <head>
+    <meta charset="utf-8"/>
+    <meta name="Keywords" content="肉食"/>
+    <meta name="Description" content="肉食"/>
+    <title>肉食</title>
+    <link rel="stylesheet" href="{{ site.url }}/css/sxBase.css"/>
+    <link rel="stylesheet" href="{{ site.url }}/css/page.css"/>
+    <script src="{{ site.url }}/js/jquery-2.0.3.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="title">
+        <span class="span1">肉食</span>
+        <span class="span2"></span>
+      </div>      
+      <nav>          
+        <ul>
+          <li class="shou">
+            <a href="{{ site.url }}/rs/greens">猪肉</a>
+          </li>
+          <li class="st">
+            <a href="{{ site.url }}/rs/park">牛肉</a>
+          </li>
+　　  <li class="te">
+            <a href="{{ site.url }}/rs/fruits">羊肉</a>
+          </li>
+　　  <li class="pp">
+            <a href="{{ site.url }}/rs/brand">鸡肉</a>
+          </li>
+        </ul> 
+      </nav>      
+    </header>    
+      {{ content }}
+      <script>
+        $(function(){
+          var w=$(window).width();
+          $('.image').css('width',w);
+        });
+      </script>
+    <footer>
+      <div id="foot">
+        <div id="bei">Copyright © 2015 肉食</div>       
+      </div>
+    </footer>   
+  </body>
+</html>
