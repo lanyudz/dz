@@ -95,10 +95,10 @@ layout: base
        <p>蔬菜</p>
      </div>
      <div>
-       <a href="{{ site.url }}/wxPro">
+       <a href="">
          <img class="imgMode" src="{{ site.url }}/image/sale/h2.jpg"/>         
        </a>
-       <p>文选蔬菜</p>
+       <p>蔬菜</p>
      </div>
      <div>
        <a href="">
