@@ -75,7 +75,10 @@ nav {
   margin-right: auto;
 }
 
-ul a { color: #ffffff; }
+ul a {
+  color: #ffffff;
+  text-decoration: none;
+}
 
 #clear {
   border: 0;

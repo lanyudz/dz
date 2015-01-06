@@ -79,8 +79,6 @@ nav {
   margin-right: auto;
 }
 
-ul a {color: #ffffff;}
-
 #clear {
   border: 0;
   clear: both;
@@ -92,6 +90,7 @@ ul {
 }
 
 ul a {
+  color: #ffffff;
   text-decoration: none;
 }
 
@@ -100,7 +99,7 @@ ul li {
   margin-left: 20px;
 }
 
-#fan {margin-left: 40px;}
+#fan { margin-left: 40px; }
 
 #div1,#div2,#div3 {
   margin-left: auto;
