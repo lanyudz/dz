@@ -97,7 +97,7 @@ layout: base
        <p>可立亚炭火烤肉</p>
      </div>
      <div>
-       <a href="{{ site.url }}/sheng">
+       <a href="{{ site.url }}/ss/sheng">
          <img class="imgMode" src="{{ site.url }}/image/mode/f2.jpg"/>         
        </a>
        <p>圣士烘焙</p>
