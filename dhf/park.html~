@@ -10,15 +10,15 @@ layout: dhfBase
        <a href="">
          <img src="{{ site.url }}/image/dhf/zd1.jpg"/>
        </a>
-       <p class="name">鱼泥</p>
-       <p class="group">优惠价：￥20元</p>
+       <p class="name"></p>
+       <p class="group">优惠价：￥0元</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/dhf/zd2.jpg"/>         
        </a>
-       <p class="name">鱼肉饺</p>
-       <p class="group">优惠价：￥20元</p>
+       <p class="name"></p>
+       <p class="group">优惠价：￥0元</p>
      </div>
      <div>
        <a href="">
