@@ -1,0 +1,177 @@
+---
+layout: sxBase
+---
+    <section>
+      <img class="image" src="{{ site.url }}/image/jiu/zbys.jpg" />
+    </section>
+
+    <section class="goods" id="goods">
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb1.jpg" />
+       </a>
+       <p class="name">长白山灵芝</p>
+       <p class="group">团购价：￥260元/500g</p>
+       <p>市场价：￥380元/500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb2.jpg" />         
+       </a>
+       <p class="name">盛华胖大海</p>
+       <p class="group">团购价：￥15元/50g</p>
+       <p>市场价：￥25元/50g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb3.jpg" />         
+       </a>
+       <p class="name">桂圆肉</p>
+       <p class="group">团购价：￥38元/500g</p>
+       <p>市场价：￥60元/500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb4.jpg" />         
+       </a>
+       <p class="name">和田玉枣六星</p>
+       <p class="group">团购价：￥45元/500g</p>
+       <p>市场价：￥60元/500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb5.jpg" />         
+       </a>
+       <p class="name">和田玉枣四星500g</p>
+       <p class="group">团购价：￥40元</p>
+       <p>市场价：￥55元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb6.jpg" />         
+       </a>
+       <p class="name">黄山灵芝</p>
+       <p class="group">团购价：￥620元/500g</p>
+       <p>市场价：￥850元/500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb7.jpg" />         
+       </a>
+       <p class="name">吉林鹿茸片</p>
+       <p class="group">团购价：￥45元</p>
+       <p>市场价：￥80元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb8.jpg" />         
+       </a>
+       <p class="name">吉林山参</p>
+       <p class="group">团购价：￥25元/株</p>
+       <p>市场价：￥40元/株</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb9.jpg" />         
+       </a>
+       <p class="name">吉祥源鹿鞭酒</p>
+       <p class="group">团购价：￥150元</p>
+       <p>市场价：￥280元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb10.jpg" />         
+       </a>
+       <p class="name">灵芝孢子粉</p>
+       <p class="group">团购价：￥610元/盒</p>
+       <p>市场价：￥680元/盒</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb11.jpg" />         
+       </a>
+       <p class="name">玛咖含片</p>
+       <p class="group">团购价：￥480元</p>
+       <p>市场价：￥568元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb12.jpg" />         
+       </a>
+       <p class="name">梅花鹿茸</p>
+       <p class="group">团购价：￥9.5元/克</p>
+       <p>市场价：￥12元/克</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb13.jpg" />         
+       </a>
+       <p class="name">梅花鹿茸血</p>
+       <p class="group">团购价：￥80元</p>
+       <p>市场价：￥120元</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb14.jpg" />         
+       </a>
+       <p class="name">秘鲁黑玛卡</p>
+       <p class="group">团购价：￥850元/500g</p>
+       <p>市场价：￥1300元/500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb15.jpg" />         
+       </a>
+       <p class="name">宁夏枸杞王</p>
+       <p class="group">团购价：￥39 元/500g</p>
+       <p>市场价：￥55元/500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb16.jpg" />         
+       </a>
+       <p class="name">若羌红枣</p>
+       <p class="group">团购价：￥35元/350g</p>
+       <p>市场价：￥48元/350g</p>
+     </div>
+     <div> 
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb17.jpg" />         
+       </a>
+       <p class="name">天然贝侬蜂蜜</p>
+       <p class="group">团购价：￥48元/1000g</p>
+       <p>市场价：￥90元/1000g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb18.jpg" />         
+       </a>
+       <p class="name">天然刺五加</p>
+       <p class="group">团购价：￥8元/150g</p>
+       <p>市场价：￥15元/150g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb19.jpg" />         
+       </a>
+       <p class="name">天然黑加伦</p>
+       <p class="group">团购价：￥30元/500g</p>
+       <p>市场价：￥50元/500g</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb20.jpg" />         
+       </a>
+       <p class="name">天然黒蜂椴树蜜</p>
+       <p class="group">团购价：￥65元/480g</p>
+       <p>市场价：￥110元/480g</p> 
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/jiu/zb21.jpg" />         
+       </a>
+       <p class="name">新疆灰枣</p>
+       <p class="group">团购价：￥30元/350g</p>
+       <p>市场价：￥45元/350g</p>
+     </div>
+  </section>
