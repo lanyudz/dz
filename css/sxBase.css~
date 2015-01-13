@@ -38,7 +38,7 @@ header {
 }
 
 nav {
-  font-size: 24px;
+  font-size: 22px;
   background: #006400;
 }
 
