@@ -11,126 +11,126 @@ layout: sxBase
          <img src="{{ site.url }}/image/sx/ls1.jpg"/>
        </a>
        <p class="name">麻椒王</p>
-       <p class="group">优惠价：￥5元／500g</p>
+       <p class="group">优惠价：￥5元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls2.jpg"/>         
        </a>
        <p class="name">玛利亚黄瓜</p>
-       <p class="group">优惠价：￥10元／500g</p>
+       <p class="group">优惠价：￥10元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls3.jpg"/>         
        </a>
        <p class="name">绿尖椒</p>
-       <p class="group">优惠价：￥5元／500g</p> 
+       <p class="group">优惠价：￥5元/500g</p> 
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls4.jpg"/>         
        </a>
        <p class="name">绿茄子</p>
-       <p class="group">优惠价：￥4元／500g</p>
+       <p class="group">优惠价：￥4元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls5.jpg"/>         
        </a>
        <p class="name">迷你南瓜</p>
-       <p class="group">优惠价：￥13元／500g</p>
+       <p class="group">优惠价：￥13元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls6.jpg"/>         
        </a>
        <p class="name">小彩椒</p>
-       <p class="group">优惠价：￥10元／500g</p>
+       <p class="group">优惠价：￥10元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls7.jpg"/>         
        </a>
        <p class="name">心里美</p>
-       <p class="group">优惠价：￥8元／500g</p>
+       <p class="group">优惠价：￥8元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls8.jpg"/>         
        </a>
        <p class="name">小红柿子</p>
-       <p class="group">优惠价：￥6元／500g</p>
+       <p class="group">优惠价：￥6元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls9.jpg"/>         
        </a>
        <p class="name">小黑柿子</p>
-       <p class="group">优惠价：￥22元／500g</p>
+       <p class="group">优惠价：￥22元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls10.jpg"/>         
        </a>
        <p class="name">小旱黄瓜</p>
-       <p class="group">优惠价：￥8元／500g</p>
+       <p class="group">优惠价：￥8元/500g</p>
       </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls11.jpg"/>         
        </a>
        <p class="name">紫尖椒</p>
-       <p class="group">优惠价：￥10元／500g</p>
+       <p class="group">优惠价：￥10元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls12.jpg"/>         
        </a>
        <p class="name">土豆</p>
-       <p class="group">优惠价：￥3元／500g</p>
+       <p class="group">优惠价：￥3元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls13.jpg"/>         
        </a>
        <p class="name">紫茄</p>
-       <p class="group">优惠价：￥4元／500g</p>
+       <p class="group">优惠价：￥4元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls14.jpg"/>         
        </a>
        <p class="name">甜椒</p>
-       <p class="group">优惠价：￥5元／500g</p>
+       <p class="group">优惠价：￥5元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls15.jpg"/>         
        </a>
        <p class="name">紫圆茄</p>
-       <p class="group">优惠价：￥10元／500g</p>
+       <p class="group">优惠价：￥10元/500g</p>
       </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls16.jpg"/>         
        </a>
        <p class="name">大南瓜</p>
-       <p class="group">优惠价：￥5元／500g</p>
+       <p class="group">优惠价：￥5元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls17.jpg"/>         
        </a>
        <p class="name">大番茄</p>
-       <p class="group">优惠价：￥7元／500g</p>
+       <p class="group">优惠价：￥7元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls18.jpg"/>         
        </a>
        <p class="name">云豆(架豆王)</p>
-       <p class="group">优惠价：￥8元／500g</p>
+       <p class="group">优惠价：￥8元/500g</p>
      </div>
      <div>
        <a href="">
