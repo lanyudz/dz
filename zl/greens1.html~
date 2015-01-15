@@ -11,147 +11,147 @@ layout: zlBase
          <img src="{{ site.url }}/image/zl/gw1.jpg"/>
        </a>
        <p class="name"></p>
-       <p class="group">优惠价：￥元／500g</p>
+       <p class="group">优惠价：￥元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw2.jpg"/>         
        </a>
        <p class="name">五彩米</p>
-       <p class="group">优惠价：￥7.5元／500g</p>
+       <p class="group">优惠价：￥7.5元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw3.jpg"/>         
        </a>
        <p class="name">八宝米</p>
-       <p class="group">优惠价：￥7.0元／500g</p> 
+       <p class="group">优惠价：￥7.0元/500g</p> 
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw4.jpg"/>         
        </a>
        <p class="name">黑香米</p>
-       <p class="group">优惠价：￥7.0元／500g</p>
+       <p class="group">优惠价：￥7.0元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw5.jpg"/>         
        </a>
        <p class="name">青稞米</p>
-       <p class="group">优惠价：￥8.5元／500g</p>
+       <p class="group">优惠价：￥8.5元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw6.jpg"/>         
        </a>
        <p class="name">苦荞米</p>
-       <p class="group">优惠价：￥12元／500g</p>
+       <p class="group">优惠价：￥12元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw7.jpg"/>         
        </a>
        <p class="name">糙米</p>
-       <p class="group">优惠价：￥6.2元／500g</p>
+       <p class="group">优惠价：￥6.2元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw8.jpg"/>         
        </a>
        <p class="name">红米</p>
-       <p class="group">优惠价：￥8.0元／500g</p>
+       <p class="group">优惠价：￥8.0元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw9.jpg"/>         
        </a>
        <p class="name">特级西米</p>
-       <p class="group">优惠价：￥7.3元／500g</p>
+       <p class="group">优惠价：￥7.3元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw10.jpg"/>         
        </a>
        <p class="name">黄金米</p>
-       <p class="group">优惠价：￥9.5元／500g</p>
+       <p class="group">优惠价：￥9.5元/500g</p>
       </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw11.jpg"/>         
        </a>
        <p class="name">特级黄金苗小米</p>
-       <p class="group">优惠价：￥8.5元／500g</p>
+       <p class="group">优惠价：￥8.5元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw12.jpg"/>         
        </a>
        <p class="name">白小米</p>
-       <p class="group">优惠价：￥8.0元／500g</p>
+       <p class="group">优惠价：￥8.0元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw13.jpg"/>         
        </a>
        <p class="name">黑小米</p>
-       <p class="group">优惠价：￥8.0元／500g</p>
+       <p class="group">优惠价：￥8.0元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw14.jpg"/>         
        </a>
        <p class="name">绿小米</p>
-       <p class="group">优惠价：￥8.5元／500g</p>
+       <p class="group">优惠价：￥8.5元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw15.jpg"/>         
        </a>
        <p class="name">粘高粱米</p>
-       <p class="group">优惠价：￥6.9元／500g</p>
+       <p class="group">优惠价：￥6.9元/500g</p>
       </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw16.jpg"/>         
        </a>
        <p class="name">笨高粱米</p>
-       <p class="group">优惠价：￥6.9元／500g</p>
+       <p class="group">优惠价：￥6.9元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw17.jpg"/>         
        </a>
        <p class="name">白玉米渣</p>
-       <p class="group">优惠价：￥7.0元／500g</p>
+       <p class="group">优惠价：￥7.0元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw18.jpg"/>         
        </a>
        <p class="name">黄金小渣</p>
-       <p class="group">优惠价：￥7.0元／500g</p>
+       <p class="group">优惠价：￥7.0元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw19.jpg"/>         
        </a>
        <p class="name">黄金中渣</p>
-       <p class="group">优惠价：￥7.5元／500g</p>
+       <p class="group">优惠价：￥7.5元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw20.jpg"/>         
        </a>
        <p class="name">白黄玉米渣</p>
-       <p class="group">优惠价：￥7.5元／500g</p>
+       <p class="group">优惠价：￥7.5元/500g</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/zl/gw21.jpg"/>         
        </a>
        <p class="name">小玉米</p>
-       <p class="group">优惠价：￥6.0元／500g</p>
+       <p class="group">优惠价：￥6.0元/500g</p>
      </div>
      <ul class="page">
        <li class="page1">
