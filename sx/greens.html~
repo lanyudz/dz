@@ -8,149 +8,150 @@ layout: sxBase
     <section class="goods" id="goods">
      <div>
        <a href="">
-         <img src="{{ site.url }}/image/sx/ls1.jpg"/>
-       </a>
-       <p class="name">麻椒王</p>
-       <p class="group">￥元/</p>
-     </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls2.jpg"/>         
-       </a>
-       <p class="name">玛利亚黄瓜</p>
-       <p class="group">￥元/</p>
-     </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls3.jpg"/>         
-       </a>
-       <p class="name">绿尖椒</p>
-       <p class="group">￥6元/</p> 
-     </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls4.jpg"/>         
-       </a>
-       <p class="name">绿茄子</p>
-       <p class="group">￥5元/</p>
-     </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls5.jpg"/>         
-       </a>
-       <p class="name">迷你南瓜</p>
-       <p class="group">￥13元/</p>
-     </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls6.jpg"/>         
-       </a>
-       <p class="name">小彩椒</p>
-       <p class="group">￥10元/</p>
-     </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls7.jpg"/>         
-       </a>
-       <p class="name">心里美</p>
-       <p class="group">￥8元/</p>
-     </div>
-     <div>
-       <a href="">
          <img src="{{ site.url }}/image/sx/ls8.jpg"/>         
        </a>
        <p class="name">小红柿子</p>
-       <p class="group">￥5元/</p>
+       <p class="group">优惠价:￥10元/盒</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls9.jpg"/>         
        </a>
-       <p class="name">小黑柿子</p>
-       <p class="group">￥元/</p>
-     </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls10.jpg"/>         
-       </a>
-       <p class="name">刺黄瓜</p>
-       <p class="group">￥元/</p>
-      </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls11.jpg"/>         
-       </a>
-       <p class="name">紫尖椒</p>
-       <p class="group">￥元/</p>
-     </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls12.jpg"/>         
-       </a>
-       <p class="name">土豆</p>
-       <p class="group">￥3元/</p>
-     </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls13.jpg"/>         
-       </a>
-       <p class="name">紫茄</p>
-       <p class="group">￥元/</p>
-     </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls14.jpg"/>         
-       </a>
-       <p class="name">甜椒</p>
-       <p class="group">￥元/</p>
-     </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls15.jpg"/>         
-       </a>
-       <p class="name">紫圆茄</p>
-       <p class="group">￥元/</p>
-      </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls16.jpg"/>         
-       </a>
-       <p class="name">大南瓜</p>
-       <p class="group">￥元/</p>
+       <p class="name">黑长寿果</p>
+       <p class="group">优惠价:￥15元/盒</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls17.jpg"/>         
        </a>
        <p class="name">大番茄</p>
-       <p class="group">￥元/</p>
+       <p class="group">优惠价:￥4元/盒</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls10.jpg"/>         
+       </a>
+       <p class="name">刺黄瓜</p>
+       <p class="group">优惠价:￥6元/盒</p>
+      </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls2.jpg"/>         
+       </a>
+       <p class="name">玛利亚黄瓜</p>
+       <p class="group">优惠价:￥5元/盒</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls3.jpg"/>         
+       </a>
+       <p class="name">绿尖椒</p>
+       <p class="group">优惠价:￥3元/盒</p> 
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls14.jpg"/>         
+       </a>
+       <p class="name">甜椒</p>
+       <p class="group">优惠价:￥5元/盒</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls4.jpg"/>         
+       </a>
+       <p class="name">小茄子</p>
+       <p class="group">优惠价:￥6元/盒</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls13.jpg"/>         
+       </a>
+       <p class="name">紫长茄</p>
+       <p class="group">优惠价:￥4元/盒</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls6.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价:￥元/</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls7.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价:￥元/</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls11.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价:￥元/</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls15.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价:￥元/</p>
+      </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls16.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价:￥元/</p>
+     </div>
+
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls1.jpg"/>
+       </a>
+       <p class="name">麻椒王</p>
+       <p class="group">优惠价:￥元/</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls18.jpg"/>         
        </a>
-       <p class="name">云豆(架豆王)</p>
-       <p class="group">￥元/</p>
+       <p class="name">云豆</p>
+       <p class="group">优惠价:￥元/</p>
+     </div>
+     <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls5.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价:￥元/</p>
+     </div>
+    <div>
+       <a href="">
+         <img src="{{ site.url }}/image/sx/ls12.jpg"/>         
+       </a>
+       <p class="name"></p>
+       <p class="group">优惠价:￥元/</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls19.jpg"/>         
        </a>
        <p class="name"></p>
-       <p class="group">￥元/</p>
+       <p class="group">优惠价:￥元/</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls20.jpg"/>         
        </a>
        <p class="name"></p>
-       <p class="group">￥元/</p>
+       <p class="group">优惠价:￥元/</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls21.jpg"/>         
        </a>
        <p class="name"></p>
-       <p class="group">￥元/</p>
+       <p class="group">优惠价:￥元/</p>
      </div>  
   </section>
