@@ -45,7 +45,7 @@ layout: sxBase
        <a href="">
          <img src="{{ site.url }}/image/sx/ls3.jpg"/>         
        </a>
-       <p class="name">绿尖椒</p>
+       <p class="name">螺丝椒</p>
        <p class="group">￥6元/500克</p> 
      </div>
      <div>
