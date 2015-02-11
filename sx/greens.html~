@@ -74,35 +74,35 @@ layout: sxBase
          <img src="{{ site.url }}/image/sx/ls6.jpg"/>         
        </a>
        <p class="name">紫甜椒</p>
-       <p class="group">￥元/</p>
+       <p class="group">￥0元/500克</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls7.jpg"/>         
        </a>
        <p class="name">小南瓜</p>
-       <p class="group">￥元/</p>
+       <p class="group">￥0元/500克</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls11.jpg"/>         
        </a>
        <p class="name">绿甘蓝</p>
-       <p class="group">￥元/</p>
+       <p class="group">￥4元/500克</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls15.jpg"/>         
        </a>
        <p class="name">土豆</p>
-       <p class="group">￥元/</p>
+       <p class="group">￥3元/500克</p>
       </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls16.jpg"/>         
        </a>
        <p class="name">绿萝卜</p>
-       <p class="group">￥元/</p>
+       <p class="group">￥4元/500克</p>
      </div>
 
      <div>
@@ -110,14 +110,14 @@ layout: sxBase
          <img src="{{ site.url }}/image/sx/ls1.jpg"/>
        </a>
        <p class="name">紫甘蓝</p>
-       <p class="group">￥元/</p>
+       <p class="group">￥4元/500克</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls18.jpg"/>         
        </a>
        <p class="name">芸豆</p>
-       <p class="group">￥元/</p>
+       <p class="group">￥12元/500克</p>
      </div>
      <div>
        <a href="">
@@ -131,27 +131,27 @@ layout: sxBase
          <img src="{{ site.url }}/image/sx/ls12.jpg"/>         
        </a>
        <p class="name">胡萝卜</p>
-       <p class="group">￥元/</p>
+       <p class="group">￥3.5元/</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls19.jpg"/>         
        </a>
        <p class="name">彩椒</p>
-       <p class="group">￥元/</p>
+       <p class="group">￥11元/500克</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls20.jpg"/>         
        </a>
        <p class="name">小黄柿子</p>
-       <p class="group">￥元/</p>
+       <p class="group">￥12元/500克</p>
      </div>
      <div>
        <a href="">
          <img src="{{ site.url }}/image/sx/ls21.jpg"/>         
        </a>
        <p class="name">架豆王</p>
-       <p class="group">￥12元/</p>
+       <p class="group">￥12元/500克</p>
      </div>  
   </section>
