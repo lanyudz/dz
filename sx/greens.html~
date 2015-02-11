@@ -45,7 +45,7 @@ layout: sxBase
        <a href="">
          <img src="{{ site.url }}/image/sx/ls3.jpg"/>         
        </a>
-       <p class="name">螺丝椒</p>
+       <p class="name">螺旋椒</p>
        <p class="group">￥6元/500克</p> 
      </div>
      <div>
@@ -116,7 +116,7 @@ layout: sxBase
        <a href="">
          <img src="{{ site.url }}/image/sx/ls18.jpg"/>         
        </a>
-       <p class="name">云豆</p>
+       <p class="name">芸豆</p>
        <p class="group">￥元/</p>
      </div>
      <div>
