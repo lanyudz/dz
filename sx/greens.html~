@@ -8,6 +8,13 @@ layout: sxBase
     <section class="goods" id="goods">
      <div>
        <a href="">
+         <img src="{{ site.url }}/image/sx/ls21.jpg"/>         
+       </a>
+       <p class="name">架豆王</p>
+       <p class="group">￥12元/500克</p>
+     </div>  
+     <div>
+       <a href="">
          <img src="{{ site.url }}/image/sx/ls8.jpg"/>         
        </a>
        <p class="name">小红柿子</p>
@@ -17,7 +24,7 @@ layout: sxBase
        <a href="">
          <img src="{{ site.url }}/image/sx/ls9.jpg"/>         
        </a>
-       <p class="name">长寿果</p>
+       <p class="name">荷兰豆</p>
        <p class="group">￥18元/500克</p>
      </div>
      <div>
@@ -147,11 +154,5 @@ layout: sxBase
        <p class="name">小黄柿子</p>
        <p class="group">￥12元/500克</p>
      </div>
-     <div>
-       <a href="">
-         <img src="{{ site.url }}/image/sx/ls21.jpg"/>         
-       </a>
-       <p class="name">架豆王</p>
-       <p class="group">￥12元/500克</p>
-     </div>  
+
   </section>
